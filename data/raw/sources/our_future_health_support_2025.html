@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<title>The UK shows its support for Our Future Health &#8211; Our Future Health</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><script>document.querySelector("html").classList.remove("no-js");document.querySelector("html").classList.add("js");</script><meta name="description" content="As the government announces new funding for our programme, we can reveal that over 2.5 million people have now volunteered from across the country" /><meta property="og:description" content="As the government announces new funding for our programme, we can reveal that over 2.5 million people have now volunteered from across the country" /><meta property="og:locale" content="en_GB" /><meta property="og:type" content="website" /><meta property="og:title" content="The UK shows its support for Our Future Health" /><meta property="og:url" content="https://ourfuturehealth.org.uk/news/the-uk-shows-its-support-for-our-future-health/" /><meta property="og:site_name" content="Our Future Health" /><meta property="article:modified_time" content="2025-07-16T13:41:00+01:00" /><meta property="article:publisher" content="https://www.facebook.com/ourfuturehealthuk/" /><meta name="twitter:creator" content="@ukfuturehealth" /><meta name="twitter:site" content="@ukfuturehealth" /><meta property="og:image" content="https://s42615.pcdn.co/wp-content/uploads/Raghib-Office-3-1200x630.jpg.optimal.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="The UK shows its support for Our Future Health" /><meta name="twitter:image" content="https://s42615.pcdn.co/wp-content/uploads/Raghib-Office-3-1200x630.jpg.optimal.jpg" />
+    <script>
+
+      // Function to get a cookie
+      function ofh_get_cookie( name ) {
+
+        let value = `; ${document.cookie}`;
+        let parts = value.split( `; ${name}=` );
+        if ( parts.length === 2 ) { return parts.pop().split(';').shift(); }
+
+      }
+
+      // Function to set the language
+      function ofh_language_set( lang ) {
+
+        // Stop any YouTube videos that are playing
+        document.querySelectorAll( 'lite-youtube iframe' ).forEach( function( iframe ) { iframe.contentWindow.postMessage( '{ "event": "command", "func": "pauseVideo", "args": "" }', '*' ) } );
+
+        // Set language cookie
+        document.cookie = 'i18next=' + lang + ';path=/;max-age=31536000';
+
+        // Set language code on <html>
+        document.querySelector( 'html' ).setAttribute( 'lang', lang );
+
+        // Try to get buttons
+        const ofhLanguageSwitchEn = document.querySelector( '#ofh-language-switch-en' );
+        const ofhLanguageSwitchCy = document.querySelector( '#ofh-language-switch-cy' );
+
+        // Remove focus from buttons
+        if ( document.readyState === 'complete' ) {
+
+          if ( ofhLanguageSwitchEn !== null ) { document.querySelector( '#ofh-language-switch-en' ).blur(); }
+          if ( ofhLanguageSwitchCy !== null ) { document.querySelector( '#ofh-language-switch-cy' ).blur(); }
+
+        } else {
+
+          document.addEventListener( 'DOMContentLoaded', function() {
+
+            if ( ofhLanguageSwitchEn !== null ) { document.querySelector( '#ofh-language-switch-en' ).blur(); }
+            if ( ofhLanguageSwitchCy !== null ) { document.querySelector( '#ofh-language-switch-cy' ).blur(); }
+
+          } );
+
+        }
+
+      }
+
+      // Function to get the language code
+      function ofh_language_get( uppercase = false ) {
+
+        let ofhLanguage = ofh_get_cookie( 'i18next' );
+
+        if ( ofhLanguage !== undefined ) {
+
+          if ( uppercase ) {
+
+            ofhLanguage = ofhLanguage.toUpperCase();
+
+          }
+
+        } else {
+
+          ofhLanguage = 'EN';
+
+        }
+
+        return ofhLanguage;
+
+      }
+
+      // Get the query string parameters
+      const urlParams = new URLSearchParams( window.location.search );
+
+      // As the page loads, set the language if there's a cookie
+      let cookieLang = ofh_get_cookie( 'i18next' );
+      if ( cookieLang !== undefined ) {
+
+        ofh_language_set( cookieLang );
+
+      // Otherwise check for browser language and query string
+      } else if (
+        navigator.language === 'cy' ||
+        navigator.language === 'cy-GB' ||
+        urlParams.get( 'lang' ) === 'cy' ||
+        urlParams.get( 'lang' ) === 'cy-GB'
+      ) {
+
+        ofh_language_set( 'cy' );
+
+      }
+
+      // UTM cookie functions
+      function ofh_generate_cookie_string( cookieValueBase64String ) {
+
+        return 'ofh_utm=' + cookieValueBase64String + '; domain=' + window.location.hostname + '; path=/; Secure; max-age=31536000;';
+
+      }
+
+      function ofh_write_utm_cookie() {
+
+        // Set a variable to track success
+        let paramsValidated = true;
+
+        // Set up an array to loop through the different parameter names
+        let paramNames = [
+          'campaign',
+          'medium',
+          'source',
+          'content',
+          'id',
+          'intent',
+          'repeat',
+        ];
+
+        // Declare the parameters object for the JSON
+        let paramsObject = new Object();
+
+        // Loop through the parameter names
+        for ( let paramName of paramNames ) {
+
+          // Set the parameter value
+          let parameterValue = urlParams.get( 'utm_' + paramName );
+
+          // If the parameter value exists
+          if ( parameterValue !== null ) {
+
+            // If the parameter value is over 50 characters
+            if ( parameterValue.length > 50 ) {
+
+              // Mark validation as having failed
+              paramsValidated = false;
+
+              // Break out of loop
+              break;
+
+            // If the parameter contains characters other than letters, numbers, underscores and hyphens
+            } else if ( ! /^[a-zA-Z0-9\-\_]+$/.test( parameterValue ) ) {
+
+              // Mark validation as having failed
+              paramsValidated = false;
+
+              // Break out of loop
+              break;
+
+            // Otherwise the parameter has passed validation
+            } else {
+
+              // If it's the ID parameter, rename it
+              if ( paramName === 'id' ) { paramName = 'utmId'; }
+
+              // Add it to the object
+              paramsObject[ paramName ] = parameterValue;
+
+            }
+
+          }
+
+        };
+
+        // If there are parameters and they're all valid
+        if ( Object.keys( paramsObject ).length > 0 && paramsValidated ) {
+
+          // Declare a variable to hold the JSON array
+          let cookieValueJsonArray = [];
+
+          // Try to get an existing cookie
+          let existingCookieValue = ofh_get_cookie( 'ofh_utm' );
+
+          // If there is one
+          if ( existingCookieValue !== undefined ) {
+
+            // Decode the cookie string
+            let existingCookieValueString = atob( existingCookieValue );
+
+            // Overwrite the empty JSON array
+            cookieValueJsonArray = JSON.parse( existingCookieValueString );
+
+          }
+
+          // Add the capturedDate item
+          paramsObject.capturedDate = new Date().toISOString();
+
+          // Add the subdomain item
+          paramsObject.subdomain = 'public';
+
+          // Add the path
+          paramsObject.path = location.pathname;
+
+          // Add the object to the JSON array
+          cookieValueJsonArray.push( paramsObject );
+
+          // Stringify the JSON
+          let cookieValueJsonString = JSON.stringify( cookieValueJsonArray );
+
+          // Base64 encode it
+          let cookieValueBase64String = btoa( cookieValueJsonString );
+
+          // Generate the new cookie value
+          let newCookieString = ofh_generate_cookie_string( cookieValueBase64String );
+
+          // Get the length of the new cookie value
+          let newCookieStringLength = new TextEncoder().encode( newCookieString ).length;
+
+          // If the new cookie value is over 3.5Kb
+          if ( newCookieStringLength > 3500 ) {
+
+            // While the new cookie value is over 3.5Kb
+            while ( newCookieStringLength > 3500 ) {
+
+              // Remove an item from the cookie array
+              cookieValueJsonArray.splice( 0, 1 );
+
+              // Stringify the JSON
+              cookieValueJsonString = JSON.stringify( cookieValueJsonArray );
+
+              // Base64 encode it
+              cookieValueBase64String = btoa( cookieValueJsonString );
+
+              // Generate the new cookie value
+              newCookieString = ofh_generate_cookie_string( cookieValueBase64String );
+
+              // Get the length of the new cookie value
+              newCookieStringLength = new TextEncoder().encode( newCookieString ).length;
+
+            }
+          }
+
+          // Store the cookie
+          document.cookie = newCookieString;
+
+        }
+
+      }
+
+    </script>
+
+    
+      <script type="text/javascript">
+
+        (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split( " "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for ( var d = {}, e = ["get_group"].concat( Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
+
+        let ofhMixpanelCookie = ofh_get_cookie( 'mp_d6e18580a026044ad38b69faafb499c9_mixpanel' );
+
+        if ( ofhMixpanelCookie !== undefined && typeof mixpanel !== 'undefined' ) {
+
+          mixpanel.init( 'd6e18580a026044ad38b69faafb499c9', { api_host: 'https://api-eu.mixpanel.com' } );
+
+          mixpanel.track( 'Page Viewed', { 'page_url' : window.location.href, 'page_path': window.location.pathname, 'page_language': ofh_language_get( true ) } );
+
+        }
+
+      </script>
+
+      <style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='ofh-site-css' href='https://s42615.pcdn.co/wp-content/themes/bureau-ofh-website/assets/css/front-77067ecfa7.css' media='all' />
+<link rel='stylesheet' id='searchwp-forms-css' href='https://s42615.pcdn.co/wp-content/plugins/searchwp/assets/css/frontend/search-forms.min.css?ver=4.5.8' media='all' />
+<link rel="icon" href="https://s42615.pcdn.co/wp-content/uploads/cropped-favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://s42615.pcdn.co/wp-content/uploads/cropped-favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://s42615.pcdn.co/wp-content/uploads/cropped-favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://s42615.pcdn.co/wp-content/uploads/cropped-favicon-1-270x270.png" />
+	</head>
+
+	<body class="wp-singular news-template-default single single-news postid-3253 wp-embed-responsive wp-theme-bureau-ofh-website">
+
+		
+  <div class="ofh-cookie-banner-js" id="cookie-banner-js">
+    <div class="ofh-width-container" id="cookie-banner-js-container">
+
+      <h2 class="ofh-u-padding-top-5">Cookies on Our Future Health</h2>
+
+      <p>We use small data files to make the website work, known as essential cookies. </p>
+
+      <p>We'd like to use analytics cookies so we can improve our site's experience and measure the effectiveness of our marketing activities. We use the Mixpanel web analytics tool to carry out this activity.</p>
+
+      <p>You can read more in our <a href="/privacy">privacy notice</a> and <a href="/cookies">cookie policy</a> before you choose. </p>
+
+      <div class="ofh-cookie-banner-buttons"><button class="ofh-button ofh-button--contained" id="cookie-banner-js-accept-button">I'm OK with analytics cookies</button><button class="ofh-button ofh-button--contained" id="cookie-banner-js-decline-button">Do not use analytics cookies</button></div>
+
+    </div>
+  </div>
+
+  <script>
+
+    // Get the mixpanel token
+    
+    // Set a variable for mixpanel opt in / out
+    let mixpanel_opt_in = false;
+
+    // If the user has opted in to Mixpanel
+    if ( ofh_get_cookie( 'mp_d6e18580a026044ad38b69faafb499c9_mixpanel' ) !== undefined ) {
+
+      // Set the Mixpanel opt in variable to true
+      mixpanel_opt_in = true;
+
+    }
+
+    if (
+      // User has opted in to Mixpanel
+      mixpanel_opt_in === true
+      // or has declined
+      || ofh_get_cookie( 'cookie_consent_refused' ) !== undefined
+    ) {
+
+      // Hide the cookie banner
+      document.querySelector( '#cookie-banner-js' ).remove()
+    };
+
+    // Write the UTM cookie if the user has opted in to Mixpanel
+    if ( mixpanel_opt_in === true ) { ofh_write_utm_cookie(); }
+
+  </script>
+
+
+  <a class="ofh-skip-link" href="#maincontent">Skip to main content</a>
+
+  <header class="header">
+
+    <div class="ofh-width-container ofh-header__container">
+
+      <div class="header-top">
+
+        <div class="logo-wrapper">
+
+          <a class="logo-link" href="https://ourfuturehealth.org.uk" aria-label="Our Future Health homepage"><svg class="icon logo-ofh" aria-hidden="true" height="120" viewBox="0 0 120 120" width="120" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path class="logo-ofh-background" d="m0 0h120v120h-120z" fill="#fff"/><path d="m7.1969211 9.00577293h-7.1969211v-1.84733804h7.1969211v-7.15843489h2.00128288v7.15843489h7.19692112v1.84733804h-7.19692112v7.31237977h-2.00128288zm-5.77293136 25.40089797c0-5.0416934 3.50224503-8.0436177 7.08146247-8.0436177 3.57921749 0 7.08146249 2.8094933 7.08146249 8.0436177 0 5.2341245-3.502245 8.082104-7.08146249 8.082104-3.57921744 0-7.08146247-2.8094933-7.08146247-8.082104zm11.62283516 0c0-3.4637588-1.3085311-6.8890314-4.54137269-6.8890314-3.23284156 0-4.57985888 3.4252726-4.57985888 6.8890314 0 3.4637589 1.34701732 6.9275177 4.57985888 6.9275177 3.23284159 0 4.54137269-3.4252726 4.54137269-6.9275177zm5.5805003 3.848621.0769724-5.7344452-1.654907-.3463759v-.8466966l3.3867864-.3078897.2309173.2309173-.1154586 3.2328416v3.5792174c0 2.0012829.6157793 2.7325209 1.847338 2.7325209s2.1552277-.5003208 3.2328416-1.5009622l.0769724-6.7735728-1.654907-.3078897v-.8466966l3.3483002-.3078896.2309172.2309172-.0769724 3.2328416v6.5041693l1.5779346.3078897v.8466966l-3.1943554.192431-.2309172-2.0397691c-1.2315587 1.5394484-2.6940347 2.1552278-4.0795382 2.1552278s-3.0404105-1.1161001-3.0019243-4.1565106zm12.2386145 3.0404105 1.654907-.3078897c0-1.1545863.0384862-2.6940346.0384862-3.7331623v-1.1161c0-1.2700449 0-1.9627967-.0769724-2.8864657l-1.8088518-.1924311v-.8082104l3.2328415-1.4239897.3463759.2309173.2694035 2.7325208c.7697242-1.847338 2.0782553-2.9634381 3.309814-2.9634381 1.2315586 0 1.3855035.3463759 1.6549069.8466966 0 1.0776139-.4233483 1.6933932-1.3470173 1.6933932s-.9621552-.192431-1.4239897-.5772931l-.2694035-.2694035c-.923669.6927518-1.5394483 1.654907-1.9243104 2.9634381v1.7318794c0 1.0006414 0 2.5016036.0384862 3.6561899l1.8858242.3463759v.8466966h-5.6189865v-.8466966zm-29.51892238 10.3912764h11.50737648l.1539449 4.0795382h-1.3085311l-.5003207-2.9249519h-5.42655553c-.03848621 1.9627967-.03848621 3.9640795-.03848621 5.8499038h3.57921744l.30788968-2.1937139h1.07761382v5.6959589h-1.07761382l-.30788968-2.3861449h-3.57921744c0 2.2706863 0 4.233483.03848621 6.1577934l2.15522771.2694035v.9621552h-6.54265555v-.9621552l2.1167415-.2694035c.03848621-1.9243104.03848621-3.9640795.03848621-5.9653624v-1.1161001c0-2.0012828 0-3.9640795-.03848621-5.9653624l-2.1167415-.2694034v-.9621553zm14.12443878 11.584349.0769724-5.7344452-1.654907-.3463759v-.8466966l3.3867864-.3078896.2309172.2309172-.1154586 3.2328416v3.5792174c0 2.0012829.6157794 2.7325209 1.8473381 2.7325209 1.2315586 0 2.1552277-.5003207 3.2328415-1.5009622l.0769724-6.7735728-1.654907-.3078897v-.8466966l3.3483002-.3078896.2309173.2309172-.0769724 3.2328416v6.5041693l1.5779345.3078897v.8466966l-3.1943553.192431-.2309173-2.039769c-1.2315587 1.5394483-2.6940346 2.1552277-4.0795381 2.1552277-1.3855036 0-3.0404105-1.1161001-3.0019243-4.1565106zm12.8543938 1.5394483c0-.5772931 0-1.0776138 0-1.9627966v-5.4650417h-1.9243105v-1.0006415l2.0397691-.2694034.6157794-3.0788967h1.3855035l-.1539448 3.1558691h3.1173829v1.2315587h-3.1558691v7.1584349c0 1.1930725.5003207 1.6933932 1.2700449 1.6933932.7697241 0 .9621552-.1924311 1.5394483-.6157794l.538807.6157794c-.6157794.7697242-1.5394484 1.2315587-2.7325209 1.2315587s-2.6170622-.8466966-2.6170622-2.6170622zm8.3130212-1.5394483.0769724-5.7344452-1.654907-.3463759v-.8466966l3.3867864-.3078896.2309173.2309172-.1154587 3.2328416v3.5792174c0 2.0012829.6157794 2.7325209 1.8473381 2.7325209s2.1552277-.5003207 3.2328415-1.5009622l.0769724-6.7735728-1.6549069-.3078897v-.8466966l3.3483001-.3078896.2309173.2309172-.0769724 3.2328416v6.5041693l1.5779346.3078897v.8466966l-3.1943554.192431-.2309173-2.039769c-1.2315586 1.5394483-2.6940346 2.1552277-4.0795381 2.1552277s-3.0404105-1.1161001-3.0019243-4.1565106zm12.161642 3.0404105 1.654907-.3078897c0-1.1545863.0384863-2.6940346.0384863-3.7331623v-1.1161c0-1.2700449 0-1.9627967-.0769725-2.8864657l-1.8088518-.1924311v-.8082103l3.2328416-1.4239898.3463759.2309173.2694034 2.7325208c.7697242-1.847338 2.0782553-2.9634381 3.309814-2.9634381s1.3855035.3463759 1.654907.8466966c0 1.0776139-.4233483 1.6933932-1.3470173 1.6933932s-.9621553-.192431-1.4239898-.5772931l-.2694034-.2694035c-.923669.6927518-1.5394484 1.654907-1.9243105 2.9634381v1.7318794c0 1.0006415 0 2.5016036.0384862 3.6561899l1.8858243.3463759v.8466966h-5.6189866v-.8466966zm9.198204-4.5413727c0-3.5407312 2.4246312-5.88839 5.3110969-5.88839s4.3104554 1.654907 4.3104554 4.4259141c0 2.771007-.0769724 1.0006414-.1539448 1.3085311h-7.350866c.0384862 2.8479795 1.5394484 4.3489416 3.7331623 4.3489416s2.386145-.6542655 3.1943554-1.6164208l.5388069.4233483c-.8466966 1.654907-2.3476588 2.6940347-4.4259141 2.6940347-3.1173829 0-5.157152-2.1552277-5.157152-5.695959zm2.1167415-1.1161h4.1949968c1.1161001 0 1.3470173-.538807 1.3470173-1.1930725 0-1.3085311-1.0776138-2.5016036-2.5016036-2.5016036-1.4239897 0-2.8094932 1.0006414-3.0404105 3.6946761zm-49.1084028 16.0487492h6.5041693v.9621552l-2.1167415.2694034c-.0384862 1.9243105-.0384862 3.9640796-.0384862 5.9653625v1.1161c0 2.0012829 0 3.9640796.0384862 5.9653624l2.1167415.2694035v.9621552h-6.5041693v-.9621552l2.1167415-.2694035c.0384862-1.9627966.0384862-4.0025657.0384862-6.1577934h-7.46632455c0 2.3476587 0 4.3104554.03848621 6.1962796l2.1167415.2309173v.9621552h-6.50416934v-.9621552l2.1167415-.2694035c.03848621-1.9243104.03848621-3.9640795.03848621-5.9653624v-1.1161c0-2.0012829 0-3.9640796-.03848621-5.9653625l-2.1167415-.2694034v-.9621552h6.50416934v.9621552l-2.1167415.2309172c-.03848621 1.9627967-.03848621 3.9640796-.03848621 5.8114176h7.46632455c0-2.0397691 0-3.9255933-.0384862-5.8114176l-2.1167415-.2694034v-.9621553zm7.1969211 10.0833867c0-3.5407312 2.4246312-5.88839 5.3110969-5.88839 2.8864656 0 4.3104554 1.654907 4.3104554 4.4259141 0 2.771007-.0769724 1.0006414-.1539449 1.3085311h-7.3508659c.0384862 2.8479795 1.5394484 4.3489416 3.7331623 4.3489416s2.386145-.6542655 3.1943553-1.6164208l.538807.4233483c-.8466966 1.654907-2.3476588 2.6940347-4.4259141 2.6940347-3.1173829 0-5.157152-2.1552277-5.157152-5.695959zm2.1167415-1.1161h4.1949968c1.1161001 0 1.3470173-.538807 1.3470173-1.1930725 0-1.3085311-1.0776138-2.5016036-2.5016036-2.5016036-1.4239897 0-2.8094932 1.0006414-3.0404105 3.6946761zm15.8563182 4.9262347c-1.2700449 1.2315587-2.0397691 1.8473381-3.3867864 1.8473381-1.3470174 0-3.0788968-.9621552-3.0788968-2.8864657s.731238-2.3476588 3.8486209-3.502245c.731238-.2694035 1.6933932-.538807 2.6170623-.7697242v-.5772932c0-2.2322001-.6542656-2.8094932-2.1552277-2.8094932-1.5009622 0-.7697242 0-1.2315587.1539448l-.4233483 1.5009622c-.1924311.7312379-.5772932 1.1161-1.1930725 1.1161-.6157794 0-1.0006415-.3463758-1.0776139-.9621552.4233483-1.7703656 2.1552277-2.8479795 4.5028865-2.8479795 2.3476587 0 3.5792174 1.1161001 3.5792174 4.0025658v4.9262347c0 1.0006415.3078897 1.3470174.8466966 1.3470174.538807 0 .6542656-.1924311.8851828-.5003207l.4618346.5003207c-.538807.8851828-1.1930725 1.1930725-2.0012829 1.1930725s-1.8858243-.6927518-2.0782553-1.7703657zm-2.578576.3078897c.6927517 0 1.1161-.192431 2.5400898-1.2315587v-3.5407312c-.8082104.2309172-1.654907.5003207-2.1167415.6927517-2.0012829.7697242-2.2706864 1.654907-2.2706864 2.3476588 0 1.2315587.7697242 1.6933932 1.8473381 1.6933932zm7.735728.4233483 1.847338-.3078897c0-1.2315587.0384862-2.4631173.0384862-3.694676v-10.121873l-1.8858242-.2309173v-.8082104l3.6177036-1.0391276.3078897.192431-.0769724 3.2713278v8.7363695c0 1.2315587 0 2.4631173.0384862 3.694676l1.847338.3078897v.8466966h-5.7344451zm8.1590763-1.5009621c0-.5772932 0-1.0776139 0-1.9627967v-5.4650417h-1.9243104v-1.0006414l2.039769-.2694035.6157794-3.0788967h1.3855035l-.1539448 3.1558691h3.1173829v1.2315587h-3.1558691v7.1584349c0 1.1930725.5003207 1.6933932 1.2700449 1.6933932s.9621552-.192431 1.5394483-.6157793l.538807.6157793c-.6157794.7697242-1.5394484 1.2315587-2.7325209 1.2315587s-2.6170622-.8466966-2.6170622-2.6170622zm6.619628 1.5009621 1.7318794-.3078897c0-1.1545862.0384862-2.6940346.0384862-3.694676v-10.121873l-1.8858242-.2309173v-.8082104l3.5407312-1.0391276.3078897.192431-.0769725 3.2713278v4.4644003c1.1161001-1.2315587 2.7325209-2.1167415 4.233483-2.1167415 1.5009622 0 2.9634381 1.2315586 2.9634381 4.2719692v2.1552277c0 1.0776138 0 2.5400898.0384863 3.6946761l1.6164207.3078896v.8466966h-5.349583v-.8466966l1.6933932-.3078896c0-1.1545863.0384862-2.6555485.0384862-3.7331623v-1.9627967c0-2.1167415-.5388069-2.8094933-1.8858243-2.8094933-1.3470173 0-2.0782553.4233483-3.2713277 1.5009622v3.2713278c0 1.0006414 0 2.5400898.0384862 3.694676l1.5779345.3078897v.8466966h-5.349583z" fill="#1a1a1a" transform="translate(12.546504 13.932008)"/></g></svg></a>
+
+        </div>
+
+        <div class="header-top-right">
+
+          <div class="join-login-wrapper">
+
+            <div class="join-wrapper">
+
+              <a href="https://study.ourfuturehealth.org.uk/welcome?r=community">Join Our Future Health</a>
+
+            </div>
+
+            <div class="login-wrapper">
+
+              Registered participant? <a href="https://study.ourfuturehealth.org.uk/">Sign in</a>
+
+            </div>
+
+          </div>
+
+          <svg class="icon logo-nhs-mobile" aria-hidden="true" fill="none" height="33" viewBox="0 0 80 33" width="80" xmlns="http://www.w3.org/2000/svg"><path d="m.9 9v-6.56h.83v6.56zm2.54695 0v-4.86h.68l.07.7h.03c.23334-.23333.48-.42667.74-.58.26-.16.55667-.24.89-.24.51334 0 .88667.16333 1.12.49.24.32.36.79.36 1.41v3.08h-.82v-2.97c0-.45333-.07333-.78333-.22-.99-.14666-.20667-.38-.31-.7-.31-.24666 0-.47.06333-.67.19-.19333.12667-.41333.31333-.66.56v3.52zm7.47075 2.05v-6.91h.68l.07.56h.03c.22-.18667.46-.34667.72-.48.2666-.13333.5433-.2.83-.2.6266 0 1.1033.22667 1.43.68.3266.44667.49 1.04667.49 1.8 0 .54667-.1 1.01667-.3 1.41-.1934.39333-.45.69333-.77.9-.3134.20667-.6567.31-1.03.31-.2267 0-.4534-.05-.68-.15-.22-.1-.4434-.23667-.67-.41l.02.85v1.64zm2.01-2.62c.4 0 .73-.17.99-.51.2666-.34667.4-.82.4-1.42 0-.53333-.1-.96333-.3-1.29-.1934-.33333-.52-.5-.98-.5-.2067 0-.4167.05667-.63.17-.2067.11333-.43.27667-.67.49v2.55c.22.18667.4333.32.64.4.2066.07333.39.11.55.11zm4.5201.69c-.4067 0-.7467-.12-1.02-.36-.2667-.24667-.4-.58667-.4-1.02 0-.53333.2367-.94.71-1.22.48-.28667 1.2367-.48667 2.27-.6 0-.20667-.03-.40333-.09-.59-.0533-.18667-.1533-.33667-.3-.45-.14-.12-.3433-.18-.61-.18-.28 0-.5433.05333-.79.16s-.4667.22667-.66.36l-.32-.57c.2267-.14667.5033-.28667.83-.42.3333-.14.6933-.21 1.08-.21.5933 0 1.0233.18333 1.29.55.2667.36.4.84333.4 1.45v2.98h-.68l-.07-.58h-.03c-.2267.18667-.4767.35-.75.49-.2667.14-.5533.21-.86.21zm.24-.66c.2333 0 .4533-.05667.66-.17s.4267-.27333.66-.48v-1.35c-.8067.1-1.3733.25-1.7.45-.32.2-.48.45667-.48.77 0 .27333.0833.47333.25.6.1667.12.37.18.61.18zm3.6791.54v-4.86h.68l.07.88h.03c.1666-.30667.37-.55.61-.73s.4966-.27.77-.27c.1933 0 .3666.03333.52.1l-.16.72c-.08-.02667-.1534-.04667-.22-.06-.0667-.01333-.15-.02-.25-.02-.2067 0-.4234.08333-.65.25-.22.16667-.4134.45667-.58.87v3.12zm4.9968.12c-.52 0-.8834-.15-1.09-.45-.2-.3-.3-.69-.3-1.17v-2.69h-.72v-.62l.76-.05.1-1.36h.69v1.36h1.31v.67h-1.31v2.7c0 .3.0533.53333.16.7.1133.16.31.24.59.24.0866 0 .18-.01333.28-.04.1-.03333.19-.06333.27-.09l.16.62c-.1334.04667-.28.08667-.44.12-.1534.04-.3067.06-.46.06zm1.8489-.12v-4.86h.68l.07.7h.03c.2333-.23333.48-.42667.74-.58.26-.16.5566-.24.89-.24.5133 0 .8866.16333 1.12.49.24.32.36.79.36 1.41v3.08h-.82v-2.97c0-.45333-.0734-.78333-.22-.99-.1467-.20667-.38-.31-.7-.31-.2467 0-.47.06333-.67.19-.1934.12667-.4134.31333-.66.56v3.52zm7.4387.12c-.4333 0-.8266-.1-1.18-.3-.3533-.20667-.6333-.5-.84-.88-.2066-.38-.31-.83333-.31-1.36 0-.53333.1034-.99.31-1.37.2134-.38.4867-.67333.82-.88.3334-.20667.6834-.31 1.05-.31.62 0 1.0967.20667 1.43.62.34.41333.51.96667.51 1.66 0 .08667-.0033.17333-.01.26 0 .08-.0066.15-.02.21h-3.28c.0334.51333.1934.92333.48 1.23.2934.30667.6734.46 1.14.46.2334 0 .4467-.03333.64-.1.2-.07333.39-.16667.57-.28l.29.54c-.2066.13333-.4433.25-.71.35-.26.1-.5566.15-.89.15zm-1.53-2.94h2.6c0-.49333-.1066-.86667-.32-1.12-.2066-.26-.5-.39-.88-.39-.34 0-.6466.13333-.92.4-.2666.26-.4266.63-.48 1.11zm4.521 2.82v-4.86h.68l.07.88h.03c.1666-.30667.37-.55.61-.73s.4966-.27.77-.27c.1933 0 .3666.03333.52.1l-.16.72c-.08-.02667-.1534-.04667-.22-.06-.0667-.01333-.15-.02-.25-.02-.2067 0-.4234.08333-.65.25-.22.16667-.4134.45667-.58.87v3.12zm4.6977.12c-.3467 0-.6767-.06333-.99-.19-.3133-.13333-.5867-.29333-.82-.48l.41-.55c.2133.16667.4333.30667.66.42.2267.10667.4833.16.77.16.32 0 .56-.07333.72-.22.16-.15333.24-.33333.24-.54 0-.16667-.0567-.30667-.17-.42-.1067-.11333-.2467-.20667-.42-.28-.1667-.08-.34-.15333-.52-.22-.2267-.08667-.45-.18333-.67-.29-.22-.11333-.4-.25667-.54-.43-.14-.18-.21-.40667-.21-.68 0-.39333.1467-.72.44-.98.3-.26667.7133-.4 1.24-.4.3 0 .58.05333.84.16s.4833.23667.67.39l-.4.52c-.1667-.12667-.34-.23-.52-.31s-.3767-.12-.59-.12c-.3067 0-.5333.07-.68.21-.14.14-.21.30333-.21.49 0 .15333.05.28.15.38.1.09333.23.17667.39.25.16.06667.33.13667.51.21.2333.08667.4633.18667.69.3.2267.10667.4133.25333.56.44.1533.18.23.42333.23.73 0 .26-.07.5-.21.72-.1333.22-.3333.39667-.6.53-.26.13333-.5833.2-.97.2zm2.9195-.12v-7.12h.82v1.94l-.03 1c.2333-.22.4766-.40667.73-.56.26-.16.5566-.24.89-.24.5133 0 .8866.16333 1.12.49.24.32.36.79.36 1.41v3.08h-.82v-2.97c0-.45333-.0734-.78333-.22-.99-.1467-.20667-.38-.31-.7-.31-.2467 0-.47.06333-.67.19-.1934.12667-.4134.31333-.66.56v3.52zm5.4394 0v-4.86h.82v4.86zm.42-5.86c-.16 0-.2933-.04667-.4-.14-.1-.1-.15-.23333-.15-.4 0-.16.05-.29.15-.39.1067-.1.24-.15.4-.15s.29.05.39.15c.1067.1.16.23.16.39 0 .16667-.0533.3-.16.4-.1.09333-.23.14-.39.14zm2.0409 7.91v-6.91h.68l.07.56h.03c.22-.18667.46-.34667.72-.48.2667-.13333.5434-.2.83-.2.6267 0 1.1034.22667 1.43.68.3267.44667.49 1.04667.49 1.8 0 .54667-.1 1.01667-.3 1.41-.1933.39333-.45.69333-.77.9-.3133.20667-.6566.31-1.03.31-.2266 0-.4533-.05-.68-.15-.22-.1-.4433-.23667-.67-.41l.02.85v1.64zm2.01-2.62c.4 0 .73-.17.99-.51.2667-.34667.4-.82.4-1.42 0-.53333-.1-.96333-.3-1.29-.1933-.33333-.52-.5-.98-.5-.2066 0-.4166.05667-.63.17-.2066.11333-.43.27667-.67.49v2.55c.22.18667.4334.32.64.4.2067.07333.39.11.55.11zm6.3089.57-1.35-4.86h.84l.72 2.81c.0533.22667.1033.45333.15.68.0466.22.0933.44333.14.67h.04c.0533-.22667.1066-.45.16-.67.0533-.22667.11-.45333.17-.68l.75-2.81h.8l.76 2.81c.06.22667.1166.45333.17.68.06.22.1166.44333.17.67h.04c.0533-.22667.1033-.45.15-.67.0533-.22667.1033-.45333.15-.68l.71-2.81h.78l-1.3 4.86h-1l-.7-2.61c-.06-.23333-.1167-.46333-.17-.69-.0467-.22667-.1-.46333-.16-.71h-.04c-.0534.24667-.1067.48667-.16.72-.0534.22667-.1134.45667-.18.69l-.68 2.6zm6.4077 0v-4.86h.82v4.86zm.42-5.86c-.16 0-.2933-.04667-.4-.14-.1-.1-.15-.23333-.15-.4 0-.16.05-.29.15-.39.1067-.1.24-.15.4-.15s.29.05.39.15c.1067.1.16.23.16.39 0 .16667-.0533.3-.16.4-.1.09333-.23.14-.39.14zm3.5709 5.98c-.52 0-.8833-.15-1.09-.45-.2-.3-.3-.69-.3-1.17v-2.69h-.72v-.62l.76-.05.1-1.36h.69v1.36h1.31v.67h-1.31v2.7c0 .3.0534.53333.16.7.1134.16.31.24.59.24.0867 0 .18-.01333.28-.04.1-.03333.19-.06333.27-.09l.16.62c-.1333.04667-.28.08667-.44.12-.1533.04-.3066.06-.46.06zm1.849-.12v-7.12h.82v1.94l-.03 1c.2333-.22.4766-.40667.73-.56.26-.16.5566-.24.89-.24.5133 0 .8866.16333 1.12.49.24.32.36.79.36 1.41v3.08h-.82v-2.97c0-.45333-.0734-.78333-.22-.99-.1467-.20667-.38-.31-.7-.31-.2467 0-.47.06333-.67.19-.1934.12667-.4134.31333-.66.56v3.52z" fill="#fff"/><g clip-rule="evenodd" fill-rule="evenodd"><path d="m39 33h41v-17h-41z" fill="#005ebb"/><path d="m43.1429 17.3091h4.4704l2.7457 9.5323h.0379l1.8809-9.5323h3.3784l-2.839 13.746h-4.4551l-2.8011-9.5116h-.0379l-1.8634 9.5116h-3.3785z" fill="#fff"/><path d="m56.4966 17.3091h3.5603l-1.0459 5.2588h4.2084l1.0484-5.2588h3.5603l-2.7622 13.746h-3.5603l1.181-5.8874h-4.2109l-1.181 5.8874h-3.5603z" fill="#fff"/><path d="m77.2388 20.5449c-.6705-.3227-1.5832-.6078-2.8681-.6078-1.3778 0-2.4962.2077-2.4962 1.2753 0 1.8831 5.0487 1.1804 5.0487 5.2165 0 3.6734-3.3357 4.6262-6.3531 4.6262-1.3412 0-2.8879-.3251-4.0232-.6877l.8198-2.7032c.6877.4576 2.0678.7627 3.2034.7627 1.0816 0 2.7752-.2101 2.7752-1.5804 0-2.133-5.0487-1.3329-5.0487-5.0815 0-3.4283 2.944-4.4559 5.7951-4.4559 1.6028 0 3.1105.1726 3.9864.59z" fill="#fff"/></g></svg>
+          <svg class="icon logo-nhs-desktop" aria-hidden="true" height="47" viewBox="0 0 94 47" width="94" xmlns="http://www.w3.org/2000/svg"><g fill="none"><g transform="translate(29 21)"><path d="m0 0h64.567981v26h-64.567981z" fill="#fff"/><path d="m0 26h64.5679814v-26h-64.5679814zm25.9596416-23.51342444-4.4568546 20.74358614h-6.9948494l-4.3981514-14.35304149h-.0587032l-2.92598598 14.35304149h-5.30438158l4.49354407-20.74358614h7.01778029l4.3110139 14.38486234h.0596204l2.9525859-14.38486234zm20.0067734 0-4.3706343 20.74358614h-5.6327524l1.8684118-8.8843936h-6.6618924l-1.8684117 8.8843936h-5.6327525l4.3697171-20.74358614h5.6336697l-1.6556128 7.93613094h6.6591406l1.6583645-7.93613094zm16.1828124.56550274-1.358428 4.13035202c-1.0841741-.50367929-2.5609257-.94826264-4.6393847-.94826264-2.2279687 0-4.0376773.32366395-4.0376773 1.99016962 0 2.9402506 8.1670782 1.8428843 8.1670782 8.1434213 0 5.7341251-5.395188 7.2215246-10.2767233 7.2215246-2.1692655 0-4.6705708-.507316-6.5077965-1.0728187l1.3263247-4.2203597c1.1126085.7146063 3.3451633 1.1910106 5.1814718 1.1910106 1.7500882 0 4.4889579-.3282098 4.4889579-2.467483 0-3.3302839-8.166161-2.0810865-8.166161-7.93249429 0-5.35136517 4.7622945-6.95604739 9.3732449-6.95604739 2.593029 0 5.0319621.26911384 6.4490933.92098758z" fill="#005eb8"/></g><g fill="#fff" transform="translate(.078 .456)"><path d="m.002 8.544v-7.872h.996v7.872z"/><path d="m3.062 8.544v-5.832h.816l.084.84h.036c.28-.28.576-.514.888-.702s.668-.282 1.068-.282c.616 0 1.066.194 1.35.582s.426.954.426 1.698v3.696h-.984v-3.564c0-.544-.088-.94-.264-1.188s-.456-.372-.84-.372c-.296 0-.562.076-.798.228s-.502.376-.798.672v4.224z"/><path d="m12.026 11.004v-8.292h.816l.084.672h.036c.264-.224.554-.416.87-.576s.646-.24.99-.24c.752 0 1.324.27 1.716.81s.588 1.262.588 2.166c0 .656-.118 1.22-.354 1.692s-.544.832-.924 1.08-.794.372-1.242.372c-.272 0-.542-.06-.81-.18s-.538-.284-.81-.492l.024 1.02v1.968zm2.412-3.144c.48 0 .878-.206 1.194-.618s.474-.978.474-1.698c0-.64-.118-1.158-.354-1.554s-.63-.594-1.182-.594c-.248 0-.498.068-.75.204s-.522.332-.81.588v3.06c.264.224.52.382.768.474s.468.138.66.138z"/><path d="m20.03 8.688c-.488 0-.894-.146-1.218-.438s-.486-.698-.486-1.218c0-.64.286-1.13.858-1.47s1.478-.578 2.718-.714c0-.248-.034-.484-.102-.708s-.188-.406-.36-.546-.418-.21-.738-.21c-.336 0-.652.064-.948.192s-.56.272-.792.432l-.384-.684c.272-.176.606-.346 1.002-.51s.826-.246 1.29-.246c.712 0 1.228.218 1.548.654s.48 1.018.48 1.746v3.576h-.816l-.084-.696h-.036c-.272.224-.57.42-.894.588s-.67.252-1.038.252zm.288-.792c.28 0 .544-.068.792-.204s.512-.328.792-.576v-1.62c-.968.12-1.646.3-2.034.54s-.582.548-.582.924c0 .328.1.566.3.714s.444.222.732.222z"/><path d="m24.734 8.544v-5.832h.816l.084 1.056h.036c.2-.368.444-.66.732-.876s.596-.324.924-.324c.232 0 .44.04.624.12l-.192.864c-.096-.032-.184-.056-.264-.072s-.18-.024-.3-.024c-.248 0-.506.1-.774.3s-.502.548-.702 1.044v3.744z"/><path d="m30.734 8.688c-.624 0-1.058-.18-1.302-.54s-.366-.828-.366-1.404v-3.228h-.864v-.744l.912-.06.12-1.632h.828v1.632h1.572v.804h-1.572v3.24c0 .36.066.638.198.834s.366.294.702.294c.104 0 .216-.018.336-.054s.228-.07.324-.102l.192.744c-.16.056-.334.106-.522.15s-.374.066-.558.066z"/><path d="m32.954 8.544v-5.832h.816l.084.84h.036c.28-.28.576-.514.888-.702s.668-.282 1.068-.282c.616 0 1.066.194 1.35.582s.426.954.426 1.698v3.696h-.984v-3.564c0-.544-.088-.94-.264-1.188s-.456-.372-.84-.372c-.296 0-.562.076-.798.228s-.502.376-.798.672v4.224z"/><path d="m41.882 8.688c-.52 0-.992-.122-1.416-.366s-.76-.594-1.008-1.05-.372-1-.372-1.632c0-.64.126-1.188.378-1.644s.578-.808.978-1.056.82-.372 1.26-.372c.744 0 1.318.248 1.722.744s.606 1.16.606 1.992c0 .104-.002.206-.006.306s-.014.186-.03.258h-3.936c.04.616.234 1.108.582 1.476s.802.552 1.362.552c.28 0 .538-.042.774-.126s.462-.194.678-.33l.348.648c-.248.16-.53.3-.846.42s-.674.18-1.074.18zm-1.836-3.528h3.12c0-.592-.126-1.042-.378-1.35s-.606-.462-1.062-.462c-.408 0-.774.158-1.098.474s-.518.762-.582 1.338z"/><path d="m45.47 8.544v-5.832h.816l.084 1.056h.036c.2-.368.444-.66.732-.876s.596-.324.924-.324c.232 0 .44.04.624.12l-.192.864c-.096-.032-.184-.056-.264-.072s-.18-.024-.3-.024c-.248 0-.506.1-.774.3s-.502.548-.702 1.044v3.744z"/><path d="m51.158 8.688c-.416 0-.812-.078-1.188-.234s-.704-.346-.984-.57l.492-.66c.256.2.52.366.792.498s.58.198.924.198c.384 0 .672-.09.864-.27s.288-.394.288-.642c0-.2-.066-.368-.198-.504s-.3-.25-.504-.342-.414-.178-.63-.258c-.272-.104-.54-.222-.804-.354s-.48-.304-.648-.516-.252-.482-.252-.81c0-.472.178-.866.534-1.182s.85-.474 1.482-.474c.36 0 .696.064 1.008.192s.58.284.804.468l-.48.624c-.2-.152-.408-.276-.624-.372s-.452-.144-.708-.144c-.368 0-.638.084-.81.252s-.258.364-.258.588c0 .184.06.334.18.45s.276.216.468.3.396.17.612.258c.28.104.556.222.828.354s.498.308.678.528.27.514.27.882c0 .312-.082.6-.246.864s-.404.476-.72.636-.706.24-1.17.24z"/><path d="m54.662 8.544v-8.544h.984v2.328l-.036 1.2c.28-.264.574-.49.882-.678s.662-.282 1.062-.282c.616 0 1.066.194 1.35.582s.426.954.426 1.698v3.696h-.984v-3.564c0-.544-.088-.94-.264-1.188s-.456-.372-.84-.372c-.296 0-.562.076-.798.228s-.502.376-.798.672v4.224z"/><path d="m61.19 8.544v-5.832h.984v5.832zm.504-7.032c-.192 0-.35-.058-.474-.174s-.186-.274-.186-.474c0-.192.062-.348.186-.468s.282-.18.474-.18.35.06.474.18.186.276.186.468c0 .2-.062.358-.186.474s-.282.174-.474.174z"/><path d="m64.142 11.004v-8.292h.816l.084.672h.036c.264-.224.554-.416.87-.576s.646-.24.99-.24c.752 0 1.324.27 1.716.81s.588 1.262.588 2.166c0 .656-.118 1.22-.354 1.692s-.544.832-.924 1.08-.794.372-1.242.372c-.272 0-.542-.06-.81-.18s-.538-.284-.81-.492l.024 1.02v1.968zm2.412-3.144c.48 0 .878-.206 1.194-.618s.474-.978.474-1.698c0-.64-.118-1.158-.354-1.554s-.63-.594-1.182-.594c-.248 0-.498.068-.75.204s-.522.332-.81.588v3.06c.264.224.52.382.768.474s.468.138.66.138z"/><path d="m74.126 8.544-1.62-5.832h1.008l.864 3.372c.064.272.124.542.18.81s.112.538.168.81h.048c.064-.272.128-.542.192-.81s.132-.538.204-.81l.9-3.372h.96l.912 3.372c.072.272.142.542.21.81s.134.538.198.81h.048c.064-.272.126-.542.186-.81s.118-.538.174-.81l.852-3.372h.936l-1.56 5.832h-1.2l-.84-3.132c-.072-.28-.138-.556-.198-.828s-.126-.556-.198-.852h-.048c-.064.296-.128.582-.192.858s-.136.554-.216.834l-.816 3.12z"/><path d="m81.818 8.544v-5.832h.984v5.832zm.504-7.032c-.192 0-.35-.058-.474-.174s-.186-.274-.186-.474c0-.192.062-.348.186-.468s.282-.18.474-.18.35.06.474.18.186.276.186.468c0 .2-.062.358-.186.474s-.282.174-.474.174z"/><path d="m86.606 8.688c-.624 0-1.058-.18-1.302-.54s-.366-.828-.366-1.404v-3.228h-.864v-.744l.912-.06.12-1.632h.828v1.632h1.572v.804h-1.572v3.24c0 .36.066.638.198.834s.366.294.702.294c.104 0 .216-.018.336-.054s.228-.07.324-.102l.192.744c-.16.056-.334.106-.522.15s-.374.066-.558.066z"/><path d="m88.826 8.544v-8.544h.984v2.328l-.036 1.2c.28-.264.574-.49.882-.678s.662-.282 1.062-.282c.616 0 1.066.194 1.35.582s.426.954.426 1.698v3.696h-.984v-3.564c0-.544-.088-.94-.264-1.188s-.456-.372-.84-.372c-.296 0-.562.076-.798.228s-.502.376-.798.672v4.224z"/></g></g></svg>
+          <span class="ofh-u-visually-hidden">In partnership with NHS</span>
+
+          <button class="menu-toggle ofh-header__menu-toggle" id="mobile-menu-toggle" aria-controls="menu-mobile" aria-expanded="false" aria-label="Open the menu"><span class="ofh-button-text"><svg class="icon icon-menu" aria-hidden="true" height="50" viewBox="0 0 50 50" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m0 42.0671115.00389945 7.9328885 49.99610055-.0686368-.0038994-7.9313632zm0-21 .00389945 7.9328885 49.99610055-.0686368-.0038994-7.9313632zm0-20.99999997 49.9922011-.06711153.0077989 7.9313632-49.99220111.0686368"/></svg><svg class="icon icon-close" aria-hidden="true" height="50" viewBox="0 0 50 50" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m5.46227126-.5-5.46227126 5.44342403 19.5531492 19.61654447-19.54458228 19.4794736 5.44342403 5.4605579 19.54286885-19.4777603 19.4057981 19.4691934 5.4622713-5.4434241-19.4075115-19.4691933 19.5445823-19.47776025-5.443424-5.46227127-19.5428689 19.47947362z"/></svg>Menu</span></button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav>
+
+      <div class="ofh-width-container">
+
+        <ul class="menu menu-desktop" id="menu-desktop">
+
+           <li class="menu-item-119 menu-item-top menu-item "><a class="menu-link-119 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="desktopmenu-list-children-of-119" aria-label="Open the our research mission submenu" role="button" href="https://ourfuturehealth.org.uk/our-research-mission/">Our research mission<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="desktop-menu-list-children-of-119" class="menu-list-children-of-119 menu-list-children"><li class="menu-item-119 menu-item-child menu-item" ><a class="menu-link-119 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/">What is Our Future Health?</a></li><li class="menu-item-145 menu-item-child menu-item" ><a class="menu-link-145 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/why-our-future-health-important/">Why Our Future Health is important</a></li><li class="menu-item-144 menu-item-child menu-item" ><a class="menu-link-144 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/how-our-future-health-works/">How Our Future Health works</a></li><li class="menu-item-147 menu-item-child menu-item" ><a class="menu-link-147 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/why-diversity-is-essential-to-mission/">Why diversity is essential to our mission</a></li><li class="menu-item-146 menu-item-child menu-item" ><a class="menu-link-146 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/how-public-is-shaping-programme/">How the public is shaping the programme</a></li></ul></li> <li class="menu-item-120 menu-item-top menu-item "><a class="menu-link-120 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="desktopmenu-list-children-of-120" aria-label="Open the get involved submenu" role="button" href="https://ourfuturehealth.org.uk/get-involved/">Get involved<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="desktop-menu-list-children-of-120" class="menu-list-children-of-120 menu-list-children"><li class="menu-item-120 menu-item-child menu-item" ><a class="menu-link-120 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/">Ways to get involved</a></li><li class="menu-item-129 menu-item-child menu-item" ><a class="menu-link-129 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/taking-part/">Taking part</a></li><li class="menu-item-163 menu-item-child menu-item" ><a class="menu-link-163 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/researchers/">Researchers</a></li><li class="menu-item-167 menu-item-child menu-item" ><a class="menu-link-167 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/partners/">Partners</a></li><li class="menu-item-3031 menu-item-child menu-item" ><a class="menu-link-3031 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/community-champions-programme/">Community Champions Programme</a></li></ul></li> <li class="menu-item-121 menu-item-top menu-item "><a class="menu-link-121 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="desktopmenu-list-children-of-121" aria-label="Open the protecting your data submenu" role="button" href="https://ourfuturehealth.org.uk/protecting-your-data/">Protecting your data<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="desktop-menu-list-children-of-121" class="menu-list-children-of-121 menu-list-children"><li class="menu-item-121 menu-item-child menu-item" ><a class="menu-link-121 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/">Your data is our responsibility</a></li><li class="menu-item-202 menu-item-child menu-item" ><a class="menu-link-202 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/how-we-protect-your-data/">How we protect your data</a></li><li class="menu-item-203 menu-item-child menu-item" ><a class="menu-link-203 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/how-we-control-access-to-data/">How we control access to data</a></li><li class="menu-item-204 menu-item-child menu-item" ><a class="menu-link-204 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/how-we-make-data-available-for-research/">How we make data available for research</a></li></ul></li> <li class="menu-item-122 menu-item-top menu-item "><a class="menu-link-122 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="desktopmenu-list-children-of-122" aria-label="Open the about us submenu" role="button" href="https://ourfuturehealth.org.uk/about-us/">About us<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="desktop-menu-list-children-of-122" class="menu-list-children-of-122 menu-list-children"><li class="menu-item-122 menu-item-child menu-item" ><a class="menu-link-122 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/">About us</a></li><li class="menu-item-209 menu-item-child menu-item" ><a class="menu-link-209 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/how-we-are-funded/">How we&#8217;re funded</a></li><li class="menu-item-206 menu-item-child menu-item" ><a class="menu-link-206 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/how-were-governed/">How we&#8217;re governed</a></li><li class="menu-item-171 menu-item-child menu-item" ><a class="menu-link-171 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/">Our partnerships</a></li><li class="menu-item-161 menu-item-child menu-item" ><a class="menu-link-161 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/our-leadership-team/">Our leadership team</a></li><li class="menu-item-148 menu-item-child menu-item" ><a class="menu-link-148 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/our-aims-and-values/">Our values as an organisation</a></li><li class="menu-item-128 menu-item-child menu-item" ><a class="menu-link-128 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/careers/">Careers</a></li><li class="menu-item-207 menu-item-child menu-item" ><a class="menu-link-207 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/contact-us/">Contact us</a></li></ul></li> <li class="menu-item-124 menu-item-top menu-item "><a class="menu-link-124 menu-link-top menu-link ancestor has-children" aria-expanded="false" aria-controls="desktopmenu-list-children-of-124" aria-label="Open the news &#038; stories submenu" role="button" href="https://ourfuturehealth.org.uk/news-and-stories/">News &#038; stories<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="desktop-menu-list-children-of-124" class="menu-list-children-of-124 menu-list-children"><li class="menu-item-124 menu-item-child menu-item" ><a class="menu-link-124 menu-link-child menu-link ancestor" href="https://ourfuturehealth.org.uk/news-and-stories/">Featured</a></li><li class="menu-item-158 menu-item-child menu-item" ><a class="menu-link-158 menu-link-child menu-link ancestor" href="https://ourfuturehealth.org.uk/news-and-stories/all-news-stories/">All news &#038; stories</a></li></ul></li>
+        </ul>
+
+      </div>
+
+      <ul class="menu menu-mobile" id="menu-mobile">
+
+        <li class="menu-item-join-login menu-item-top menu-item "><a class="menu-link-join-login menu-link-top menu-link" href="https://study.ourfuturehealth.org.uk/welcome?r=community"><span class="menu-link-underline">Join Our Future Health</span></a></li>
+
+        <li class="menu-item-join-login menu-item-top menu-item "><a class="menu-link-join-login menu-link-top menu-link" href="https://study.ourfuturehealth.org.uk/">Registered participant? <span class="menu-link-underline">Sign in</span></a></li>
+
+         <li class="menu-item-119 menu-item-top menu-item "><a class="menu-link-119 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="mobilemenu-list-children-of-119" aria-label="Open the our research mission submenu" role="button" href="https://ourfuturehealth.org.uk/our-research-mission/">Our research mission<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="mobile-menu-list-children-of-119" class="menu-list-children-of-119 menu-list-children"><li class="menu-item-119 menu-item-child menu-item" ><a class="menu-link-119 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/">What is Our Future Health?</a></li><li class="menu-item-145 menu-item-child menu-item" ><a class="menu-link-145 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/why-our-future-health-important/">Why Our Future Health is important</a></li><li class="menu-item-144 menu-item-child menu-item" ><a class="menu-link-144 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/how-our-future-health-works/">How Our Future Health works</a></li><li class="menu-item-147 menu-item-child menu-item" ><a class="menu-link-147 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/why-diversity-is-essential-to-mission/">Why diversity is essential to our mission</a></li><li class="menu-item-146 menu-item-child menu-item" ><a class="menu-link-146 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/our-research-mission/how-public-is-shaping-programme/">How the public is shaping the programme</a></li></ul></li> <li class="menu-item-120 menu-item-top menu-item "><a class="menu-link-120 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="mobilemenu-list-children-of-120" aria-label="Open the get involved submenu" role="button" href="https://ourfuturehealth.org.uk/get-involved/">Get involved<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="mobile-menu-list-children-of-120" class="menu-list-children-of-120 menu-list-children"><li class="menu-item-120 menu-item-child menu-item" ><a class="menu-link-120 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/">Ways to get involved</a></li><li class="menu-item-129 menu-item-child menu-item" ><a class="menu-link-129 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/taking-part/">Taking part</a><ul class="menu-list-grandchildren"><li class="menu-item-165 menu-item-grandchild menu-item"><a class="menu-link-165 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/get-involved/taking-part/how-can-i-leave-the-programme/">How can I leave the programme?</a></li><li class="menu-item-166 menu-item-grandchild menu-item"><a class="menu-link-166 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/get-involved/taking-part/can-i-choose-not-to-receive-an-invitation-from-nhs-digitrials/">Invitation letters from NHS England</a></li></ul></li><li class="menu-item-163 menu-item-child menu-item" ><a class="menu-link-163 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/researchers/">Researchers</a></li><li class="menu-item-167 menu-item-child menu-item" ><a class="menu-link-167 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/partners/">Partners</a></li><li class="menu-item-3031 menu-item-child menu-item" ><a class="menu-link-3031 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/get-involved/community-champions-programme/">Community Champions Programme</a><ul class="menu-list-grandchildren"><li class="menu-item-3277 menu-item-grandchild menu-item"><a class="menu-link-3277 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/get-involved/community-champions-programme/community-champions-toolkit/">Community Champions toolkit</a></li></ul></li></ul></li> <li class="menu-item-121 menu-item-top menu-item "><a class="menu-link-121 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="mobilemenu-list-children-of-121" aria-label="Open the protecting your data submenu" role="button" href="https://ourfuturehealth.org.uk/protecting-your-data/">Protecting your data<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="mobile-menu-list-children-of-121" class="menu-list-children-of-121 menu-list-children"><li class="menu-item-121 menu-item-child menu-item" ><a class="menu-link-121 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/">Your data is our responsibility</a></li><li class="menu-item-202 menu-item-child menu-item" ><a class="menu-link-202 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/how-we-protect-your-data/">How we protect your data</a></li><li class="menu-item-203 menu-item-child menu-item" ><a class="menu-link-203 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/how-we-control-access-to-data/">How we control access to data</a></li><li class="menu-item-204 menu-item-child menu-item" ><a class="menu-link-204 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/protecting-your-data/how-we-make-data-available-for-research/">How we make data available for research</a></li></ul></li> <li class="menu-item-122 menu-item-top menu-item "><a class="menu-link-122 menu-link-top menu-link has-children" aria-expanded="false" aria-controls="mobilemenu-list-children-of-122" aria-label="Open the about us submenu" role="button" href="https://ourfuturehealth.org.uk/about-us/">About us<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="mobile-menu-list-children-of-122" class="menu-list-children-of-122 menu-list-children"><li class="menu-item-122 menu-item-child menu-item" ><a class="menu-link-122 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/">About us</a></li><li class="menu-item-209 menu-item-child menu-item" ><a class="menu-link-209 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/how-we-are-funded/">How we&#8217;re funded</a></li><li class="menu-item-206 menu-item-child menu-item" ><a class="menu-link-206 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/how-were-governed/">How we&#8217;re governed</a><ul class="menu-list-grandchildren"><li class="menu-item-1534 menu-item-grandchild menu-item"><a class="menu-link-1534 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/how-were-governed/the-board-of-trustees/">The Board of Trustees</a></li><li class="menu-item-1539 menu-item-grandchild menu-item"><a class="menu-link-1539 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/how-were-governed/the-access-board/">The Access Board</a></li><li class="menu-item-2761 menu-item-grandchild menu-item"><a class="menu-link-2761 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/how-were-governed/the-trading-board/">The Trading Board</a></li></ul></li><li class="menu-item-171 menu-item-child menu-item" ><a class="menu-link-171 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/">Our partnerships</a><ul class="menu-list-grandchildren"><li class="menu-item-3114 menu-item-grandchild menu-item"><a class="menu-link-3114 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/how-retail-partners-work-with-us/">How retail partners work with us</a></li><li class="menu-item-2792 menu-item-grandchild menu-item"><a class="menu-link-2792 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/our-partnership-principles/">Our partnership principles</a></li><li class="menu-item-172 menu-item-grandchild menu-item"><a class="menu-link-172 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/how-industry-members-work-with-us/">How industry members work with us</a></li><li class="menu-item-2555 menu-item-grandchild menu-item"><a class="menu-link-2555 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/how-sports-partners-work-with-us/">How sports partners work with us</a></li><li class="menu-item-205 menu-item-grandchild menu-item"><a class="menu-link-205 menu-link-grandchild menu-link" href="https://ourfuturehealth.org.uk/about-us/our-charity-industry-partnerships/how-charities-work-with-us/">How charities work with us</a></li></ul></li><li class="menu-item-161 menu-item-child menu-item" ><a class="menu-link-161 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/our-leadership-team/">Our leadership team</a></li><li class="menu-item-148 menu-item-child menu-item" ><a class="menu-link-148 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/our-aims-and-values/">Our values as an organisation</a></li><li class="menu-item-128 menu-item-child menu-item" ><a class="menu-link-128 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/careers/">Careers</a></li><li class="menu-item-207 menu-item-child menu-item" ><a class="menu-link-207 menu-link-child menu-link" href="https://ourfuturehealth.org.uk/about-us/contact-us/">Contact us</a></li></ul></li> <li class="menu-item-124 menu-item-top menu-item is-active"><a class="menu-link-124 menu-link-top menu-link ancestor has-children" aria-expanded="true" aria-controls="mobilemenu-list-children-of-124" aria-label="Close the news &#038; stories submenu" role="button" href="https://ourfuturehealth.org.uk/news-and-stories/">News &#038; stories<svg class="icon icon-chevron" aria-hidden="true" height="29" viewBox="0 0 50 29" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m4.72321164 11-4.72321164 4.6091516 25.0037103 24.3908484 24.9962897-24.3908484-4.7213565-4.6073412-20.2786435 19.7871277z" transform="translate(0 -11)"/></svg></a><ul id="mobile-menu-list-children-of-124" class="menu-list-children-of-124 menu-list-children"><li class="menu-item-124 menu-item-child menu-item" ><a class="menu-link-124 menu-link-child menu-link ancestor" href="https://ourfuturehealth.org.uk/news-and-stories/">Featured</a></li><li class="menu-item-158 menu-item-child menu-item" ><a class="menu-link-158 menu-link-child menu-link ancestor" href="https://ourfuturehealth.org.uk/news-and-stories/all-news-stories/">All news &#038; stories</a></li></ul></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  
+    <nav class="ofh-breadcrumb " aria-label="Breadcrumb">
+
+      <div class="ofh-width-container">
+
+        <ol class="ofh-breadcrumb__list">
+
+          <li class="ofh-breadcrumb__item"><a class="ofh-breadcrumb__link" href="https://ourfuturehealth.org.uk/">Home</a></li>
+
+          
+              <li class="ofh-breadcrumb__item"><a class="ofh-breadcrumb__link" href="https://ourfuturehealth.org.uk/news-and-stories/">News &#038; stories</a></li>
+
+            
+              <li class="ofh-breadcrumb__item"><a class="ofh-breadcrumb__link" href="https://ourfuturehealth.org.uk/news-and-stories/all-news-stories/">All news &#038; stories</a></li>
+
+            
+        </ol>
+
+        
+          <p class="ofh-breadcrumb__back"><a class="ofh-breadcrumb__backlink" href="https://ourfuturehealth.org.uk/news-and-stories/all-news-stories/">Back to All news &#038; stories</a></p>
+
+        
+      </div>
+
+    </nav>
+
+    
+<div class="ofh-width-container">
+
+	<main class="ofh-main-wrapper" id="maincontent" role="main">
+
+		<div class="ofh-grid-row">
+
+			<div class="ofh-grid-column-two-thirds content-column">
+
+				
+		<div class="ofh-intro-standard  ofh-bg-transparent">
+
+			<div class="ofh-grid-row">
+
+				<div class="ofh-grid-column-full">
+
+					<div class="intro-content">
+
+						<h1>The UK shows its support for Our Future Health</h1>
+
+						
+							<div class="ofh-body-s">News &#8211; 11 July 2025</div>
+
+						
+						
+							<div class="ofh-body-l">As the government announces new funding for our programme, we can reveal that over 2.5 million people have now volunteered from across the country</div>
+
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<lite-youtube videoid="pqK2rEzUfAE" params="modestbranding=2&#038;cc_load_policy=1&#038;enablejsapi=1" playlabel="Play: Our Future Health reaches 2.5 million volunteers" width="500" height="281" src="https://www.youtube-nocookie.com/embed/pqK2rEzUfAE"></lite-youtube>
+</div></figure>
+
+
+
+<p>As a health research programme, we have always relied on the support of the UK public to help everyone live longer and healthier lives.</p>
+
+
+
+<p>In October 2022, we opened three clinics and welcomed our first volunteers to their appointments. Today, less than three years and hundreds more clinics later, we can say that we’ve now passed 2.5 million volunteers.</p>
+
+
+
+<p>It means we’re over half-way to our goal of recruiting up to five million adults living in the UK.</p>
+
+
+
+<p>The 2.5m milestone arrived as the UK Government announced up to £354 million in extra funding for our programme.</p>
+
+
+
+<p>The funding was revealed in the Government’s new <a href="https://assets.publishing.service.gov.uk/media/68595e56db8e139f95652dc6/industrial_strategy_policy_paper.pdf">Modern Industrial Strategy report</a>. A related report, <a href="https://assets.publishing.service.gov.uk/media/687653fb55c4bd0544dcaeb1/Life_Sciences_Sector_Plan.pdf">specific to the life sciences sector</a>, referred to Our Future Health as a &#8220;unique UK asset&#8221; that will significantly speed up the delivery of new health research.</p>
+
+
+
+<p>It said that with the help of government support, &#8220;Our Future Health will become the largest longitudinal health research cohort and clinical trials resource in the world.&#8221; By 2030, we will:</p>
+
+
+
+<ul class="wp-block-list">
+<li>have a volunteer group of up to 5 million consented volunteers, with linked health records, genomic data, and stored blood samples</li>
+
+
+
+<li>have a volunteer group large and diverse enough to present health researchers with 10,000 new cases for more than 100 diseases, diagnosed in a 2.5 year period</li>
+
+
+
+<li>be facilitating 50,000 volunteers to take part in clinical trials every year</li>
+</ul>
+
+
+
+<p>Writing in a national newspaper, Health Secretary Wes Streeting said the strategy is designed to “make the UK a global powerhouse for MedTech and medicines.”</p>
+
+
+
+<p>He added that Our Future Health “will help spot emerging diseases earlier so we can act sooner”.</p>
+
+
+
+		<figure class="ofh-image">
+			<img fetchpriority="high" decoding="async" class="ofh-image__img" src="https://s42615.pcdn.co/wp-content/uploads/MANPiccadillyGardens-WalkIn-32-1020x680.jpg.optimal.jpg" width="1020" height="680" alt="">
+							<figcaption class="ofh-image__caption">
+					An Our Future Health clinic helping new volunteers attend their appointment				</figcaption>
+					</figure>
+
+	
+
+
+<p>Wes’s words were reflected in another report that was published in July. The <a href="https://assets.publishing.service.gov.uk/media/6866387fe6557c544c74db7a/fit-for-the-future-10-year-health-plan-for-england.pdf">10 Year Health Plan for England</a> outlines the Government’s plans to improve the NHS over the next decade. Central to its vision is the idea of preventing and detecting diseases earlier.</p>
+
+
+
+<p>Prime Minister Sir Kier Starmer said: “We will reach patients earlier, to catch illness before it spreads and prevent it in the first place, by making the healthy choice the easy choice.”</p>
+
+
+
+<h2 class="wp-block-native-h2 ofh-block ofh-block-h2 ofh-block-width-standard ofh-block-margins-standard">A central role in the future of healthcare</h2>
+
+
+
+<p>Reflecting on the funding announcement, Dr Raghib Ali OBE, Chief Executive of Our Future Health, said: “We warmly welcome the Government’s commitment to the life sciences sector and the focus on supporting our world class research and development.</p>
+
+
+
+<p>“We’re proud that Our Future Health will play a central role in helping to deliver the NHS’s bold new 10-year plan, with its ambitious vision for prevention and personalised care.</p>
+
+
+
+<p>“By harnessing the power of genomics and population scale data, we have a unique opportunity to shift the focus of healthcare – from treating illness to proactively identifying and supporting those at risk of disease.</p>
+
+
+
+<p>&#8220;This plan marks a major step forward in supporting our goal of enabling scientific research breakthroughs.&#8221;</p>
+
+
+
+		<figure class="ofh-image">
+			<img decoding="async" class="ofh-image__img" src="https://s42615.pcdn.co/wp-content/uploads/Raghib-Office-3-1020x680.jpg.optimal.jpg" width="1020" height="680" alt="">
+							<figcaption class="ofh-image__caption">
+					Dr Raghib Ali OBE, Chief Executive and Chief Medical Officer at Our Future Health				</figcaption>
+					</figure>
+
+	
+
+
+<p>Raghib said that Our Future Health will use the new investment to expand our programme, helping researchers to unlock new breakthroughs.</p>
+
+
+
+<p>“We’ll be genotyping more of our volunteers, improving the tooling researchers use to analyse our data, and facilitating researchers to invite volunteers onto new clinical trials.</p>
+
+
+
+<p>“We also plan to establish the viability of integrated risk scores for heart disease and diabetes, in partnership with the NHS.</p>
+
+
+
+<p>“None of these developments could take place without the ongoing support of the public. Millions of people across the UK are already helping to shape the future of healthcare by taking part in Our Future Health.</p>
+
+
+
+<p>“It’s been immensely heartening to see the nation’s response to our programme over the past three years. We are showing that together, we can help everyone live longer and healthier lives.”</p>
+
+
+
+	<div class="ofh-block ofh-mosaic-promo ofh-full-width ofh-bg-blue">
+
+		<div class="ofh-grid-row">
+
+			<div class="ofh-grid-column-one-third ofh-u-one-third-tablet">
+
+				<img decoding="async" class="image" src="https://s42615.pcdn.co/wp-content/uploads/portrait-4-light-blue-back@2x-630x630.png" width="630" height="630" alt="">
+
+			</div>
+
+			<div class="ofh-grid-column-two-thirds ofh-u-two-thirds-tablet">
+
+				<h2 class="ofh-card__heading lang-en">Let&#8217;s prevent disease together</h2>
+				
+				<div class="ofh-body-l lang-en"><p>By volunteering for Our Future Health, you can help health researchers discover new ways to prevent, detect and treat common conditions such as diabetes, cancer, heart disease, stroke and Alzheimer&#8217;s.</p>
+</div>
+				
+				<div class="lang-en"><a class="ofh-button ofh-button--outlined" href="https://ourfuturehealth.org.uk/our-research-mission/">Find out more</a><a class="ofh-button ofh-button--ghost-reverse" href="https://ourfuturehealth.org.uk//join/1015?utm_source=banner&#038;utm_medium=website&#038;utm_campaign=manchester_outreach&#038;utm_content=1015&#038;utm_intent=invite">Join Our Future Health now</a></div>
+
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	
+			</div>
+
+		</div>
+
+	</main>
+
+</div>
+
+
+  <footer role="contentinfo">
+    <div class="ofh-footer" id="ofh-footer">
+      <div class="ofh-width-container">
+        <div class="ofh-grid-row">
+          <div class="ofh-grid-column-full">
+            <h2 class="ofh-u-visually-hidden">Support links</h2>
+            <ul class="ofh-footer__list">
+              
+                <li class="ofh-footer__list-item"><a class="ofh-footer__list-item-link " href="https://ourfuturehealth.org.uk/accessibility/" >Accessibility</a></li>
+
+                
+                <li class="ofh-footer__list-item"><a class="ofh-footer__list-item-link " href="https://ourfuturehealth.org.uk/privacy/" >Privacy</a></li>
+
+                
+                <li class="ofh-footer__list-item"><a class="ofh-footer__list-item-link " href="https://ourfuturehealth.org.uk/cookies/" >Cookies</a></li>
+
+                
+                <li class="ofh-footer__list-item"><a class="ofh-footer__list-item-link " href="https://ourfuturehealth.org.uk/about-us/careers/" >Careers</a></li>
+
+                
+                <li class="ofh-footer__list-item"><a class="ofh-footer__list-item-link " href="https://ourfuturehealth.org.uk/about-us/contact-us/" >Contact us</a></li>
+
+                
+                <li class="ofh-footer__list-item"><a class="ofh-footer__list-item-link external" href="https://study.ourfuturehealth.org.uk/frequently-asked-questions" target="_blank">Frequently asked questions</a></li>
+
+                            </ul>
+
+            <p class="ofh-footer__copyright">&copy; Our Future Health 2026</p>
+          </div>
+        </div>
+      </div>
+      <div class="ofh-width-container">
+        <div class="ofh-grid-row">
+          <div class="ofh-grid-column-full small-print">
+            <p>Our Future Health is a company limited by guarantee registered in England and Wales (number 12212468) and a charity registered with the Charity Commission for England and Wales (charity number 1189681) and OSCR, Scottish Charity Regulator (charity number SC050917). Registered office: 2 New Bailey, 6 Stanley Street, Manchester M3 5GS.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="footer-social">
+      <div class="ofh-width-container">
+        <div class="ofh-grid-row">
+          <div class="ofh-grid-column-full">
+            Follow us<a class="social-link" href="https://www.linkedin.com/company/our-future-health-uk/" aria-label="LinkedIn"><svg class="icon social-linkedin" aria-hidden="true" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><path d="m11 50h-10v-33h10zm-5-38c-3.31288344 0-6-2.73105747-6-6.02830979 0-3.29807345 2.68629154-5.97169021 6-5.97169021s6 2.67361676 6 5.97169021c0 3.29725232-2.68823201 6.02830979-6 6.02830979zm33.7459418 38v-16.1461187c0-3.8480105-.0773641-8.7827789-5.3370173-8.7827789-5.3370173 0-6.1548663 4.1806915-6.1548663 8.5055447v16.4233529h-10.2540582v-33.1682975h9.8451337v4.5244619h.1436761c1.3704497-2.6060013 4.7181046-5.3561644 9.7125095-5.3561644 10.3888928 0 12.2986807 6.8643183 12.2986807 15.7801696v18.2198304z" fill="#2c2a29"/></svg></a><a class="social-link" href="https://x.com/ukfuturehealth" aria-label="Twitter"><svg class="icon social-twitter" aria-hidden="true" height="39" width="48" viewBox="0 0 48 39" xmlns="http://www.w3.org/2000/svg"><path d="m43.0661057 15.7194959c.0304689.4265421.0304689.853178.0304689 1.2797201 0 13.0100977-9.8984449 28.000784-27.9899218 28.000784-5.57364681 0-10.75129204-1.614914-15.1066528-4.4179186.79190934.0913483 1.55325607.121829 2.37563428.121829 4.59892421 0 8.83250322-1.5538588 12.21323522-4.2046475-4.3248919-.091442-7.94928106-2.9250211-9.19803594-6.8250492.60918988.0913483 1.21828601.1523097 1.85794476.1523097.8832222 0 1.76653815-.1219228 2.58882261-.3351001-4.50761136-.9141394-7.88843707-4.8750351-7.88843707-9.6586282v-.121829c1.30959887.7312553 2.83257357 1.1882781 4.44667362 1.2491457-2.64976035-1.7672237-4.38573588-4.7835931-4.38573588-8.1961177 0-1.8280913.48722066-3.50387295 1.34006774-4.9663835 4.84267516 5.9718712 12.12192236 9.8718055 20.28429796 10.2984415-.1522506-.7312553-.2436572-1.4928975-.2436572-2.2546335 0-5.4235 4.3858297-9.8414186 9.8376009-9.8414186 2.8324799 0 5.3908336 1.1882781 7.1878406 3.10781147 2.22329-.42654213 4.355267-1.24923948 6.2436807-2.37655619-.7310654 2.2852079-2.2843215 4.20474132-4.3248919 5.42340632 1.9797265-.2131773 3.8985152-.761736 5.6649596-1.5233782-1.3398802 1.9499203-3.0151055 3.6865695-4.9338943 5.0882125z" fill="#2c2a29" transform="translate(0 -6)"/></svg></a><a class="social-link" href="https://www.facebook.com/ourfuturehealthuk/" aria-label="Facebook"><svg class="icon social-facebook" aria-hidden="true" height="50" width="27" viewBox="0 0 27 50" xmlns="http://www.w3.org/2000/svg"><path d="m34.6908598 28.125 1.3356893-9.0488281h-8.3513458v-5.8720703c0-2.475586 1.1666147-4.88867191 4.9069205-4.88867191h3.7966641v-7.70410156s-3.4453646-.61132813-6.7395014-.61132813c-6.8775789 0-11.3730846 4.33398438-11.3730846 12.1796875v6.8964844h-7.6449898v9.0488281h7.6449898v21.875h9.4090014v-21.875z" fill="#2c2a29" transform="translate(-10)"/></svg></a><a class="social-link" href="https://www.youtube.com/channel/UCJUEct7MOPjAGN5jP55CFjQ" aria-label="YouTube"><svg class="icon social-youtube" aria-hidden="true" height="35" width="50" viewBox="0 0 50 35" xmlns="http://www.w3.org/2000/svg"><path d="m48.9552015 13.4284173c-.5750421-2.1367453-2.2693149-3.81957908-4.4205269-4.39067283-3.8992262-1.03774447-19.5346746-1.03774447-19.5346746-1.03774447s-15.63535689 0-19.53467464 1.03774447c-2.15121197.5711841-3.84548481 2.25392753-4.42052683 4.39067283-1.04479853 3.8729751-1.04479853 11.9535767-1.04479853 11.9535767s0 8.0806017 1.04479853 11.9535768c.57504202 2.1367453 2.26931486 3.7494685 4.42052683 4.3205623 3.89931775 1.0377445 19.53467464 1.0377445 19.53467464 1.0377445s15.6353569 0 19.5346746-1.0377445c2.151212-.5710938 3.8454848-2.183817 4.4205269-4.3205623 1.0447985-3.8729751 1.0447985-11.9535768 1.0447985-11.9535768s0-8.0806016-1.0447985-11.9535767zm-29.5674464 20.0817868v-14.2857143l13.2653061 7.1430331z" fill="#2c2a29" transform="translate(0 -8)"/></svg></a><a class="social-link" href="https://www.instagram.com/ourfuturehealthuk/" aria-label="YouTube"><svg class="icon social-instagram" aria-hidden="true" height="50" width="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><path d="m25.0111111 12.2222222c-7.0666667 0-12.7666667 5.7-12.7666667 12.7666667s5.7 12.7666667 12.7666667 12.7666667 12.7666667-5.7 12.7666667-12.7666667-5.7-12.7666667-12.7666667-12.7666667zm0 21.0666667c-4.5666667 0-8.3-3.7222222-8.3-8.3s3.7222222-8.3 8.3-8.3 8.3 3.7222222 8.3 8.3-3.7333333 8.3-8.3 8.3zm16.2666667-21.5888889c0 1.6555556-1.3333334 2.9777778-2.9777778 2.9777778-1.6555556 0-2.9777778-1.3333334-2.9777778-2.9777778s1.3333334-2.97777778 2.9777778-2.97777778 2.9777778 1.33333338 2.9777778 2.97777778zm8.4555555 3.0222222c-.1888889-3.9888889-1.1-7.5222222-4.0222222-10.43333331-2.9111111-2.91111111-6.4444444-3.82222222-10.4333333-4.02222222-4.1111111-.23333334-16.4333334-.23333334-20.5444445 0-3.9777777.18888889-7.51111108 1.1-10.4333333 4.01111111s-3.82222222 6.44444442-4.02222222 10.43333332c-.23333334 4.1111111-.23333334 16.4333333 0 20.5444445.18888889 3.9888888 1.1 7.5222222 4.02222222 10.4333333s6.4444444 3.8222222 10.4333333 4.0222222c4.1111111.2333333 16.4333334.2333333 20.5444445 0 3.9888889-.1888889 7.5222222-1.1 10.4333333-4.0222222 2.9111111-2.9111111 3.8222222-6.4444445 4.0222222-10.4333333.2333334-4.1111112.2333334-16.4222223 0-20.5333334zm-5.3111111 24.9444445c-.8666666 2.1777777-2.5444444 3.8555555-4.7333333 4.7333333-3.2777778 1.3-11.0555556 1-14.6777778 1s-11.4111111.2888889-14.6777778-1c-2.17777774-.8666667-3.85555552-2.5444444-4.7333333-4.7333333-1.3-3.2777778-1-11.0555556-1-14.6777778s-.28888889-11.4111111 1-14.6777778c.86666667-2.17777777 2.54444444-3.85555554 4.7333333-4.73333332 3.2777778-1.3 11.0555556-1 14.6777778-1s11.4111111-.28888889 14.6777778 1c2.1777778.86666666 3.8555555 2.54444444 4.7333333 4.73333332 1.3 3.2777778 1 11.0555556 1 14.6777778s.3 11.4111111-1 14.6777778z" fill="#2c2a29"/></svg></a><a class="social-link" href="https://www.tiktok.com/@ourfuturehealthuk" aria-label="TikTok"><svg class="icon social-tiktok" aria-hidden="true" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Library=TBC, Name=TikTok, Type=-, Filename=global-social-tiktok">
+<path id="Vector" d="M45.6143 20.4199C45.2168 20.4581 44.8178 20.478 44.4185 20.4798C40.0386 20.4804 35.9536 18.3017 33.5544 14.6855V34.4167C33.5544 42.4708 26.9384 49 18.7772 49C10.616 49 4 42.4708 4 34.4167C4 26.3625 10.616 19.8333 18.7772 19.8333C19.0857 19.8333 19.3872 19.8607 19.6905 19.8795V27.066C19.3872 27.03 19.0891 26.9753 18.7772 26.9753C14.6119 26.9753 11.2352 30.3077 11.2352 34.4184C11.2352 38.529 14.6119 41.8614 18.7772 41.8614C22.9433 41.8614 26.6224 38.6222 26.6224 34.5107L26.6952 1H33.6618C34.3188 7.16537 39.3562 11.9811 45.6212 12.4331V20.4199" fill="black"/>
+</g>
+</svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bureau-ofh-website/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script src="https://s42615.pcdn.co/wp-content/themes/bureau-ofh-website/assets/js/footer-5bf104d597.js" id="ofh-footer-js"></script>
+
+</body>
+</html>

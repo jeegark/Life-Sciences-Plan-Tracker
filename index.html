@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Life Sciences Sector Plan Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__brand-row">
+          <div class="brand-lockup">
+            <span class="brand-lockup__mark" aria-hidden="true"></span>
+            <span class="brand-lockup__text">Life Sciences Sector Plan Tracker</span>
+          </div>
+          <nav class="site-nav" aria-label="Primary">
+            <a href="#scorecard">Scorecard</a>
+            <a href="#actions">Actions</a>
+            <a href="#pressure">Pressure tools</a>
+            <a href="#bodies">Bodies</a>
+            <a href="#briefings">Briefings</a>
+            <a href="#methodology">Methodology</a>
+          </nav>
+        </div>
+
+        <div class="hero__content">
+          <div class="hero__copy">
+            <p class="eyebrow">Public Delivery Scorecard</p>
+            <h1 id="pageTitle">Life Sciences Sector Plan Tracker</h1>
+            <p class="hero__message" id="homepageMessage"></p>
+            <div class="meta-strip">
+              <span id="launchDate"></span>
+              <span id="reviewDate"></span>
+            </div>
+            <div class="hero__cta-row">
+              <a class="primary-link" href="#actions">Browse actions</a>
+              <a class="secondary-link" href="#pressure">Generate pressure copy</a>
+            </div>
+          </div>
+
+          <aside class="hero__score">
+            <div class="score-panel">
+              <div class="score-panel__label">Overall delivery score</div>
+              <div class="score-panel__value" id="overallScore">--</div>
+              <div class="score-panel__subtext" id="scoreBreakdown"></div>
+            </div>
+            <p class="disclaimer" id="evidenceDisclaimer"></p>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="counter-grid" id="scorecard" aria-label="Cost of delay">
+          <article class="counter-card counter-card--patients">
+            <div class="counter-card__label">People affected</div>
+            <div class="counter-card__value" id="patientsValue">--</div>
+            <div class="counter-card__delta" id="patientsDelta"></div>
+          </article>
+          <article class="counter-card counter-card--nhs">
+            <div class="counter-card__label">Avoidable NHS spend</div>
+            <div class="counter-card__value" id="nhsValue">--</div>
+            <div class="counter-card__delta" id="nhsDelta"></div>
+          </article>
+          <article class="counter-card counter-card--investment">
+            <div class="counter-card__label">Investment lost or deferred</div>
+            <div class="counter-card__value" id="investmentValue">--</div>
+            <div class="counter-card__delta" id="investmentDelta"></div>
+          </article>
+        </section>
+
+        <section class="summary-grid">
+          <article class="panel">
+            <div class="panel__header">
+              <h2>Status summary</h2>
+            </div>
+            <div class="status-list" id="statusSummary"></div>
+          </article>
+
+          <article class="panel panel--accent">
+            <div class="panel__header">
+              <h2>Evidence coverage</h2>
+            </div>
+            <div class="evidence-health" id="evidenceHealth"></div>
+            <ul class="evidence-highlights" id="evidenceHighlights"></ul>
+          </article>
+
+          <article class="panel">
+            <div class="panel__header">
+              <h2>Latest weekly view</h2>
+            </div>
+            <p class="summary-date" id="weeklySummaryDate"></p>
+            <p class="weekly-summary__headline" id="weeklySummaryHeadline"></p>
+            <ul class="weekly-summary__items" id="weeklySummaryItems"></ul>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="panel__header">
+            <h2>Latest missed deadlines</h2>
+          </div>
+          <div class="deadline-list" id="deadlineList"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__header">
+            <h2>Pillar scorecards</h2>
+          </div>
+          <div class="pillar-grid" id="pillarGrid"></div>
+        </section>
+
+        <section class="panel detail-panel" id="pillarDetailSection" hidden>
+          <div class="detail-header">
+            <button class="ghost-button" id="closePillarDetail">Back to overview</button>
+            <div class="pill-row" id="pillarDetailPills"></div>
+            <h2 id="pillarDetailTitle"></h2>
+            <p class="detail-summary" id="pillarDetailSummary"></p>
+          </div>
+          <div class="detail-stat-grid" id="pillarDetailStats"></div>
+          <div class="action-grid" id="pillarActionGrid"></div>
+        </section>
+
+        <section class="panel" id="actions">
+          <div class="panel__header">
+            <div>
+              <h2>Action register</h2>
+              <p class="panel__intro">Filter the full action list, open any item, and pull evidence or pressure copy directly from the live register.</p>
+            </div>
+            <div class="action-register-count" id="actionRegisterCount"></div>
+          </div>
+          <div class="actions-toolbar">
+            <label class="field">
+              <span>Search actions</span>
+              <input id="actionSearch" type="search" placeholder="Search title, body, or minister" />
+            </label>
+            <label class="field">
+              <span>Pillar</span>
+              <select id="actionPillarFilter"></select>
+            </label>
+            <label class="field">
+              <span>Status</span>
+              <select id="actionStatusFilter">
+                <option value="all">All statuses</option>
+                <option value="Delayed">Delayed</option>
+                <option value="Late but in progress">Late but in progress</option>
+                <option value="At risk">At risk</option>
+                <option value="On track">On track</option>
+                <option value="Completed">Completed</option>
+                <option value="Too vague to track">Too vague to track</option>
+              </select>
+            </label>
+          </div>
+          <div class="action-grid" id="actionGrid"></div>
+        </section>
+
+        <section class="panel detail-panel" id="actionDetailSection" hidden>
+          <div class="detail-header">
+            <button class="ghost-button" id="closeActionDetail">Back to register</button>
+            <div class="pill-row" id="actionDetailPills"></div>
+            <h2 id="actionDetailTitle"></h2>
+            <p class="detail-summary" id="actionDetailSummary"></p>
+            <div class="detail-meta-grid" id="actionDetailMeta"></div>
+          </div>
+
+          <div class="detail-tabs" role="tablist" aria-label="Action detail sections">
+            <button class="detail-tab is-active" data-detail-tab="overview" type="button">Overview</button>
+            <button class="detail-tab" data-detail-tab="evidence" type="button">Evidence</button>
+            <button class="detail-tab" data-detail-tab="pressure" type="button">Pressure</button>
+          </div>
+
+          <div class="detail-tabpanel" id="detailTabOverview">
+            <div class="detail-stat-grid" id="actionImpactGrid"></div>
+            <div class="detail-columns">
+              <article class="detail-block">
+                <h3>Original plan text</h3>
+                <p id="actionOriginalText"></p>
+              </article>
+              <article class="detail-block">
+                <h3>Delivery metric</h3>
+                <p id="actionMetricsText"></p>
+              </article>
+            </div>
+            <article class="detail-block">
+              <h3>Milestones</h3>
+              <div class="milestone-list" id="actionMilestoneList"></div>
+            </article>
+          </div>
+
+          <div class="detail-tabpanel" id="detailTabEvidence" hidden>
+            <article class="detail-block">
+              <h3>Evidence</h3>
+              <div class="evidence-list" id="actionEvidenceList"></div>
+            </article>
+          </div>
+
+          <div class="detail-tabpanel" id="detailTabPressure" hidden>
+            <div class="detail-columns">
+              <article class="detail-block">
+                <h3>Pressure line</h3>
+                <p id="actionPressureCopy"></p>
+                <div class="tool-actions">
+                  <button class="secondary-button" id="copyPressureLine" type="button">Copy line</button>
+                </div>
+              </article>
+              <article class="detail-block">
+                <h3>Share</h3>
+                <div class="share-grid" id="actionShareLinks"></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="bodies">
+          <div class="panel__header">
+            <h2>Worst-performing delivery bodies</h2>
+          </div>
+          <div class="table-wrap">
+            <table class="rank-table">
+              <thead>
+                <tr>
+                  <th>Body</th>
+                  <th>Delayed actions</th>
+                  <th>Tracked actions</th>
+                  <th>Current minister</th>
+                  <th>Evidence age</th>
+                </tr>
+              </thead>
+              <tbody id="bodyTable"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="tool-grid" id="pressure">
+          <article class="panel">
+            <div class="panel__header">
+              <div>
+                <h2>MP tool</h2>
+                <p class="panel__intro">Find the local MP from a postcode or add details manually, then generate constituency-ready pressure copy.</p>
+              </div>
+            </div>
+
+            <form class="tool-form" id="mpLookupForm">
+              <label class="field field--wide">
+                <span>Postcode</span>
+                <input id="mpPostcode" type="text" placeholder="SW1A 0AA" />
+              </label>
+              <button class="primary-button" type="submit">Find MP</button>
+            </form>
+
+            <div class="manual-grid">
+              <label class="field">
+                <span>Manual MP name</span>
+                <input id="manualMpName" type="text" placeholder="MP name" />
+              </label>
+              <label class="field">
+                <span>Constituency</span>
+                <input id="manualConstituency" type="text" placeholder="Constituency" />
+              </label>
+            </div>
+
+            <div class="tool-controls">
+              <label class="field">
+                <span>Focus action</span>
+                <select id="mpActionSelect"></select>
+              </label>
+            </div>
+
+            <p class="form-note" id="mpLookupStatus"></p>
+
+            <div class="mp-card" id="mpResult" hidden>
+              <div class="mp-card__header">
+                <div>
+                  <h3 id="mpName"></h3>
+                  <p id="mpConstituency"></p>
+                </div>
+                <div class="pill-row" id="mpContactPills"></div>
+              </div>
+              <p class="lookup-meta" id="mpContact"></p>
+            </div>
+
+            <div class="tool-output">
+              <label class="field">
+                <span>Email subject</span>
+                <input id="mpSubject" type="text" readonly />
+              </label>
+              <label class="field">
+                <span>Email copy</span>
+                <textarea id="mpBody" rows="12" readonly></textarea>
+              </label>
+            </div>
+
+            <div class="tool-actions">
+              <a class="secondary-link" id="mpMailtoLink" href="#">Open in email</a>
+              <button class="secondary-button" id="copyMpEmail" type="button">Copy email</button>
+              <button class="secondary-button" id="downloadMpEmail" type="button">Download .txt</button>
+            </div>
+          </article>
+
+          <article class="panel" id="briefings">
+            <div class="panel__header">
+              <div>
+                <h2>Briefings</h2>
+                <p class="panel__intro">Switch audience, focus on a specific action or the worst delays, then copy or download a briefing instantly.</p>
+              </div>
+            </div>
+            <div class="briefing-grid" id="briefingGrid"></div>
+            <div class="tool-controls">
+              <label class="field">
+                <span>Audience</span>
+                <select id="briefingAudienceSelect"></select>
+              </label>
+              <label class="field">
+                <span>Scope</span>
+                <select id="briefingActionSelect"></select>
+              </label>
+            </div>
+            <div class="tool-output">
+              <label class="field">
+                <span>Briefing preview</span>
+                <textarea id="briefingPreview" rows="16" readonly></textarea>
+              </label>
+            </div>
+            <div class="tool-actions">
+              <button class="secondary-button" id="copyBriefing" type="button">Copy briefing</button>
+              <button class="secondary-button" id="downloadBriefing" type="button">Download .txt</button>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel methodology" id="methodology">
+          <div class="panel__header">
+            <h2>Methodology snapshot</h2>
+          </div>
+          <p>
+            The live counters estimate unrealized benefit since 16 July 2025 by
+            comparing the benefit that should have been unlocked on the plan's
+            own timetable against what has been publicly evidenced as delivered.
+          </p>
+          <p>
+            The homepage shows the central estimate. Low and high ranges should
+            sit on the full methodology page in the next build step.
+          </p>
+          <a class="source-link" href="MVP_SPEC.md">Open the full MVP specification</a>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

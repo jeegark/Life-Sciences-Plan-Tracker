@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-10T16:49:31Z"
+  },
+  "sources": [
+    {
+      "id": "plan_launch",
+      "label": "Life Sciences Sector Plan launch",
+      "url": "https://www.gov.uk/government/publications/life-sciences-sector-plan/life-sciences-sector-plan",
+      "action_ids": [
+        "all"
+      ],
+      "evidence_type": "implementation_update",
+      "effect": "context",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Life Sciences Sector Plan",
+      "published_at": "2025-07-16",
+      "summary": null
+    },
+    {
+      "id": "accountability_annual_commitment",
+      "label": "Annual implementation update commitment",
+      "url": "https://www.gov.uk/government/publications/life-sciences-sector-plan/life-sciences-sector-plan",
+      "action_ids": [
+        "accountability-annual-update"
+      ],
+      "evidence_type": "plan_commitment",
+      "effect": "context",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Life Sciences Sector Plan",
+      "published_at": "2025-07-16",
+      "summary": null
+    },
+    {
+      "id": "accountability_council_commitment",
+      "label": "Six-monthly Life Sciences Council reporting commitment",
+      "url": "https://www.gov.uk/government/publications/life-sciences-sector-plan/life-sciences-sector-plan",
+      "action_ids": [
+        "accountability-council-review"
+      ],
+      "evidence_type": "plan_commitment",
+      "effect": "context",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Life Sciences Sector Plan",
+      "published_at": "2025-07-16",
+      "summary": null
+    },
+    {
+      "id": "global_talent_taskforce",
+      "label": "Global Talent Taskforce launch",
+      "url": "https://www.gov.uk/government/news/uk-launches-global-talent-drive-to-attract-world-leading-researchers-and-innovators",
+      "action_ids": [
+        "18"
+      ],
+      "evidence_type": "official_update",
+      "effect": "complete",
+      "milestone_keywords": [
+        "Global Talent Taskforce"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "UK launches global talent drive to attract world-leading researchers and innovators",
+      "published_at": "2025-06-22",
+      "summary": "New taskforce and \u00a354 million fund will attract world-class researchers and their teams to the UK and comes ahead of the launch of government\u2019s modern Industrial Strategy."
+    },
+    {
+      "id": "post16_skills_strategy",
+      "label": "Post-16 education and skills white paper",
+      "url": "https://www.gov.uk/government/publications/post-16-education-and-skills-white-paper/post-16-education-and-skills-white-paper",
+      "action_ids": [
+        "16"
+      ],
+      "evidence_type": "official_update",
+      "effect": "complete",
+      "milestone_keywords": [
+        "Post-16 Education and Skills Strategy",
+        "Post-16 Education and Skills White Paper"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Post-16 education and skills white paper",
+      "published_at": "2025-11-21",
+      "summary": null
+    },
+    {
+      "id": "alternative_methods_strategy",
+      "label": "Replacing animals in science strategy",
+      "url": "https://www.gov.uk/government/publications/replacing-animals-in-science-strategy",
+      "action_ids": [
+        "2b"
+      ],
+      "evidence_type": "official_update",
+      "effect": "complete",
+      "milestone_keywords": [
+        "Alternative Methods Strategy",
+        "Replacing animals in science"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Replacing animals in science strategy",
+      "published_at": "2025-11-11",
+      "summary": "The strategy will help create, test, and adopt alternative methods to animal testing so we can work towards phasing out the use of animals in all but exceptional circumstances."
+    },
+    {
+      "id": "mhra_early_access_policy",
+      "label": "MHRA early access policy intent",
+      "url": "https://www.gov.uk/government/publications/statement-of-policy-intent-early-access-to-innovative-medical-devices",
+      "action_ids": [
+        "25"
+      ],
+      "evidence_type": "official_update",
+      "effect": "complete",
+      "milestone_keywords": [
+        "Medical Devices Statement of Policy Intent",
+        "Early Access"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Statement of Policy Intent: Early Access to Innovative Medical Devices",
+      "published_at": "2025-07-31",
+      "summary": "The MHRA's initial plans on an Early Access service, which will be developed further throughout 2025."
+    },
+    {
+      "id": "mhra_performance_data",
+      "label": "MHRA performance data",
+      "url": "https://www.gov.uk/government/publications/mhra-performance-data",
+      "action_ids": [
+        "25",
+        "27"
+      ],
+      "evidence_type": "official_update",
+      "effect": "complete",
+      "milestone_keywords": [
+        "performance metrics",
+        "scientific advice"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "MHRA Performance Data",
+      "published_at": "2026-02-20",
+      "summary": "Performance data for MHRA key performance indicators (KPIs) and information on the expected timeline to complete a specific regulatory function."
+    },
+    {
+      "id": "mhra_nice_aligned_pathway_trial",
+      "label": "MHRA and NICE aligned pathway early adopters",
+      "url": "https://www.gov.uk/government/news/mhra-and-nice-invite-early-adopters-to-trial-accelerated-aligned-pathway-six-months-ahead-of-schedule",
+      "action_ids": [
+        "26",
+        "27"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "aligned pathway",
+        "scientific advice"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "MHRA and NICE invite early adopters to trial accelerated aligned pathway \u2013 six months ahead of schedule",
+      "published_at": "2025-10-10",
+      "summary": "Aligned pathway will streamline decisions on licensing and value for medicines, helping patients to benefit from them sooner."
+    },
+    {
+      "id": "integrated_scientific_advice",
+      "label": "Integrated scientific advice guidance",
+      "url": "https://www.gov.uk/guidance/medicines-get-integrated-scientific-advice-from-the-mhra-and-nice",
+      "action_ids": [
+        "26",
+        "27"
+      ],
+      "evidence_type": "guidance",
+      "effect": "complete",
+      "milestone_keywords": [
+        "Integrated Scientific Advice",
+        "scientific advice"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Medicines: Get integrated scientific advice from the MHRA and NICE",
+      "published_at": "2026-02-20",
+      "summary": "Using the Integrated Scientific Advice service from the Medicines and Healthcare products Regulatory Agency (MHRA) and&nbsp;National Institute for Health and Care Excellence&nbsp;(NICE)."
+    },
+    {
+      "id": "clinical_trials_system_update",
+      "label": "Transforming the UK clinical research system update",
+      "url": "https://www.gov.uk/government/publications/transforming-the-uk-clinical-research-system-august-2025-update/transforming-the-uk-clinical-research-system-august-2025-update",
+      "action_ids": [
+        "3",
+        "11ii"
+      ],
+      "evidence_type": "implementation_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "150 days",
+        "single searchable database of clinical trial activity"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Transforming the UK clinical research system: August 2025 update",
+      "published_at": "2025-08-04",
+      "summary": null
+    },
+    {
+      "id": "clinical_trials_regulations",
+      "label": "Clinical trials regulations signed into law",
+      "url": "https://www.gov.uk/government/news/clinical-trials-regulations-signed-into-law",
+      "action_ids": [
+        "3"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "150 days",
+        "clinical trial"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Clinical Trials regulations signed into law",
+      "published_at": "2025-04-11",
+      "summary": "12-month roll-out begins today for the biggest regulatory shake up of clinical trials in 20 years"
+    },
+    {
+      "id": "hdrs_chair",
+      "label": "HDRS chair appointment",
+      "url": "https://www.gov.uk/government/news/visionary-leader-appointed-for-health-data-research-service",
+      "action_ids": [
+        "7"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "CEO and Chair for HDRS",
+        "Chair for HDRS"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Visionary leader appointed for Health Data Research Service",
+      "published_at": "2025-11-27",
+      "summary": "Patients to benefit from faster life-saving treatments as new leader appointed for health data service."
+    },
+    {
+      "id": "hdrs_ceo",
+      "label": "HDRS CEO appointment",
+      "url": "https://www.gov.uk/government/news/healthcare-innovator-appointed-to-health-data-research-service",
+      "action_ids": [
+        "7"
+      ],
+      "evidence_type": "official_update",
+      "effect": "complete",
+      "milestone_keywords": [
+        "CEO and Chair for HDRS",
+        "CEO for HDRS"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Healthcare innovator appointed to Health Data Research Service",
+      "published_at": "2026-01-12",
+      "summary": "Healthcare industry innovator Dr Melanie Ivarsson has been appointed as CEO of the Health Data Research Service (HDRS) to accelerate medical breakthroughs."
+    },
+    {
+      "id": "national_data_library_progress",
+      "label": "National Data Library progress update",
+      "url": "https://www.gov.uk/government/publications/national-data-library-progress-update-january-2026/national-data-library-progress-update-january-2026",
+      "action_ids": [
+        "7"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "minimum viable product for HDRS",
+        "HDRS"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "National Data Library: progress update, January 2026",
+      "published_at": "2026-01-26",
+      "summary": null
+    },
+    {
+      "id": "ukri_biomedical_catalyst_2025_round_2",
+      "label": "Biomedical Catalyst 2025 small projects round 1",
+      "url": "https://www.ukri.org/opportunity/biomedical-catalyst-2025-small-projects-round-1/",
+      "source_org": "UKRI",
+      "action_ids": [
+        "5"
+      ],
+      "evidence_type": "funding_opportunity",
+      "effect": "progress",
+      "published_at_override": "2025-07-22",
+      "milestone_keywords": [
+        "Biomedical Catalyst",
+        "game-changing technologies"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Page not found &#8211; UKRI",
+      "published_at": "2025-07-22",
+      "summary": "If you typed the web address, check if it is correct."
+    },
+    {
+      "id": "translational_research_collaboration_midlands",
+      "label": "Translational Research Collaboration launched in the Midlands",
+      "url": "https://leicesterbrc.nihr.ac.uk/nihr-translational-research-collaboration-launched-in-the-midlands/",
+      "source_org": "NIHR",
+      "action_ids": [
+        "2a"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "published_at_override": "2025-03-26",
+      "milestone_keywords": [
+        "translational infrastructure",
+        "translational networks"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Page not found - NIHR Leicester Biomedical Research Centre",
+      "published_at": "2025-03-26",
+      "summary": "The page you are looking for no longer exists. Perhaps you can return back to the homepage and see if you can find what you are looking for. Or, you can try finding it by using the search form below."
+    },
+    {
+      "id": "new_data_laws_2025",
+      "label": "Data Use and Access Act implementation update",
+      "url": "https://www.gov.uk/government/news/new-data-laws-will-make-life-easier-for-british-people-cutting-life-admin-easing-traffic-and-speeding-up-roadworks",
+      "action_ids": [
+        "8"
+      ],
+      "evidence_type": "legislation",
+      "effect": "progress",
+      "milestone_keywords": [
+        "COPI",
+        "data access, use and sharing"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "New data laws will make life easier for British people, cutting life admin, easing traffic and speeding up roadworks",
+      "published_at": "2025-06-19",
+      "summary": "British people will benefit from new laws which will make their day-to-day lives easier \u2013 from slashing grocery bills and cutting traffic jams to speeding up NHS diagnoses \u2013 as the government delivers on manifesto commitments."
+    },
+    {
+      "id": "pm_turbocharges_medical_research",
+      "label": "Prime Minister turbocharges medical research",
+      "url": "https://www.gov.uk/government/news/prime-minister-turbocharges-medical-research",
+      "action_ids": [
+        "8"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "research data access approvals",
+        "data access",
+        "HDRS"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Prime Minister turbocharges medical research",
+      "published_at": "2025-04-07",
+      "summary": "Better and faster access to NHS data for researchers, with gold standard security and privacy measures."
+    },
+    {
+      "id": "uk_biobank_research_analysis_platform",
+      "label": "UK Biobank Research Analysis Platform",
+      "url": "https://www.ukbiobank.ac.uk/enable-your-research/research-analysis-platform/",
+      "source_org": "UK Biobank",
+      "action_ids": [
+        "9i"
+      ],
+      "evidence_type": "programme_page",
+      "effect": "progress",
+      "milestone_keywords": [
+        "Research Analysis Platform"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Research Analysis Platform",
+      "published_at": "2024-11-29",
+      "summary": "Learn about the UK Biobank Research Analysis Platform (UKB-RAP), a secure, sophisticated, and user-friendly cloud-based tool."
+    },
+    {
+      "id": "uk_biobank_data_update_2025",
+      "label": "New UK Biobank data available",
+      "url": "https://www.ukbiobank.ac.uk/news/metabolomic-genetic-imaging-data-and-more-new-uk-biobank-data-now-available/",
+      "source_org": "UK Biobank",
+      "action_ids": [
+        "9i"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "milestone_keywords": [
+        "Research Analysis Platform",
+        "proteomic analyses"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Metabolomic, genetic, imaging data and more: new and updated UK Biobank data now available",
+      "published_at": "2025-11-20",
+      "summary": "The latest update to UK Biobank\u2019s comprehensive dataset is available to approved researchers around the world via the Research Analysis Platform (UKB-RAP)."
+    },
+    {
+      "id": "our_future_health_open_to_researchers",
+      "label": "Our Future Health opens to researchers",
+      "url": "https://ourfuturehealth.org.uk/news/worlds-largest-cohort-study-now-open-to-researchers/",
+      "source_org": "Our Future Health",
+      "action_ids": [
+        "9ii"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "published_at_override": "2025-01-22",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "World&#8217;s largest cohort study now open to researchers",
+      "published_at": "2025-01-22",
+      "summary": "Our Future Health, the world\u2019s largest consented cohort study of its kind, is now open to researchers, as published in Nature Medicine"
+    },
+    {
+      "id": "our_future_health_support_2025",
+      "label": "The UK shows its support for Our Future Health",
+      "url": "https://ourfuturehealth.org.uk/news/the-uk-shows-its-support-for-our-future-health/",
+      "source_org": "Our Future Health",
+      "action_ids": [
+        "9ii"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "published_at_override": "2025-09-05",
+      "milestone_keywords": [
+        "participants",
+        "clinical trials resource"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "The UK shows its support for Our Future Health",
+      "published_at": "2025-09-05",
+      "summary": "As the government announces new funding for our programme, we can reveal that over 2.5 million people have now volunteered from across the country"
+    },
+    {
+      "id": "genomics_england_research_data",
+      "label": "Genomics England research data",
+      "url": "https://www.genomicsengland.co.uk/research/data",
+      "source_org": "Genomics England",
+      "action_ids": [
+        "9iii"
+      ],
+      "evidence_type": "programme_page",
+      "effect": "progress",
+      "milestone_keywords": [
+        "500,000 genomes",
+        "research database"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Data | Genomics England",
+      "published_at": "2024-11-05",
+      "summary": "Genomics England Research Environment has one of the largest genomic data sets enriched with clinical data. We enable scientists from academia and industry to make discoveries, laying the foundations for personalised medicine for rare conditions and cancer."
+    },
+    {
+      "id": "nhs_genomic_medicine_service",
+      "label": "NHS Genomic Medicine Service",
+      "url": "https://www.england.nhs.uk/genomics/nhs-genomic-medicine-service/",
+      "source_org": "NHS England",
+      "action_ids": [
+        "9iv"
+      ],
+      "evidence_type": "programme_page",
+      "effect": "progress",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "NHS England &raquo; NHS Genomic Medicine Service: Whole Genome Sequencing",
+      "published_at": null,
+      "summary": "Change my preferences I'm OK with analytics cookies"
+    },
+    {
+      "id": "nihr_prevention_programme",
+      "label": "NIHR prevention programme",
+      "url": "https://www.spcr.nihr.ac.uk/research/three-NIHR-research-schools-prevention-programme",
+      "source_org": "NIHR",
+      "action_ids": [
+        "10"
+      ],
+      "evidence_type": "programme_page",
+      "effect": "progress",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Three NIHR Research Schools' Prevention Programme \u2014 NIHR School for Primary Care Research",
+      "published_at": null,
+      "summary": "We use cookies to ensure that we give you the best experience on our website. If you click 'Accept all cookies' we'll assume that you are happy to receive all cookies and you won't see this message again. If you click 'Reject all non-essential cookies' only necessary cookies providing core functionality such as security, network management, and accessibility will be enabled. Click 'Find out more' for information on how to change your cookie settings."
+    },
+    {
+      "id": "life_sciences_investment_programme_2025",
+      "label": "Life Sciences Investment Programme 2025 report",
+      "url": "https://www.british-business-bank.co.uk/report/life-sciences-investment-programme-2025-report/",
+      "source_org": "British Business Bank",
+      "action_ids": [
+        "13"
+      ],
+      "evidence_type": "report",
+      "effect": "progress",
+      "published_at_override": "2025-09-11",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Just a moment...",
+      "published_at": "2025-09-11",
+      "summary": null
+    },
+    {
+      "id": "uk_venture_capital_financial_returns_2025",
+      "label": "UK Venture Capital Financial Returns 2025 report",
+      "url": "https://www.british-business-bank.co.uk/report/uk-venture-capital-financial-returns-2025-report/",
+      "source_org": "British Business Bank",
+      "action_ids": [
+        "14"
+      ],
+      "evidence_type": "report",
+      "effect": "progress",
+      "published_at_override": "2025-10-28",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Just a moment...",
+      "published_at": "2025-10-28",
+      "summary": null
+    },
+    {
+      "id": "turing_ai_pioneer_fellowships",
+      "label": "Turing AI Pioneer interdisciplinary fellowships",
+      "url": "https://www.ukri.org/opportunity/turing-ai-pioneer-interdisciplinary-fellowships-outline-applications/",
+      "source_org": "UKRI",
+      "action_ids": [
+        "17"
+      ],
+      "evidence_type": "funding_opportunity",
+      "effect": "complete",
+      "milestone_keywords": [
+        "Turing AI Pioneer Fellowship"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Turing AI pioneer interdisciplinary fellowships (invite only)",
+      "published_at": "2025-12-16",
+      "summary": "This funding opportunity is for established researchers from across UK Research and Innovation (UKRI)\u2019s remit, without a background in core artificial intelligence (AI) research, who want to build domain relevant AI capability and develop advanced AI approaches to tackle a specific research challenge in their chosen field."
+    },
+    {
+      "id": "cersi_guidance",
+      "label": "CERSI programme update",
+      "url": "https://www.gov.uk/government/publications/centres-of-excellence-for-regulatory-science-and-innovation-cersis/centres-of-excellence-for-regulatory-science-and-innovation-cersis",
+      "action_ids": [
+        "17"
+      ],
+      "evidence_type": "guidance",
+      "effect": "progress",
+      "milestone_keywords": [
+        "Centres of Excellence in Regulatory Science and Innovation",
+        "CERSI"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Centres of Excellence for Regulatory Science and Innovation (CERSIs)",
+      "published_at": "2025-12-02",
+      "summary": null
+    },
+    {
+      "id": "life_sciences_innovative_manufacturing_fund_awards",
+      "label": "Life Sciences Innovative Manufacturing Fund successful applicants",
+      "url": "https://www.gov.uk/government/news/life-sciences-innovative-manufacturing-fund-successful-applicants-announced",
+      "action_ids": [
+        "19",
+        "20"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "published_at_override": "2025-09-04",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Page not found - GOV.UK",
+      "published_at": "2025-09-04",
+      "summary": null
+    },
+    {
+      "id": "greener_nhs_net_zero",
+      "label": "Delivering a net zero NHS",
+      "url": "https://www.england.nhs.uk/greenernhs/a-net-zero-nhs/",
+      "source_org": "NHS England",
+      "action_ids": [
+        "21"
+      ],
+      "evidence_type": "programme_page",
+      "effect": "progress",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Greener NHS &raquo; Delivering a net zero NHS",
+      "published_at": null,
+      "summary": "Change my preferences I'm OK with analytics cookies"
+    },
+    {
+      "id": "uk_business_export_growth_2025",
+      "label": "Made in the UK, sold to the world",
+      "url": "https://www.gov.uk/government/news/made-in-the-uk-sold-to-the-world",
+      "action_ids": [
+        "15"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "published_at_override": "2025-09-02",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Page not found - GOV.UK",
+      "published_at": "2025-09-02",
+      "summary": null
+    },
+    {
+      "id": "medtech_pathway_engagement",
+      "label": "Integrated rules-based MedTech pathway engagement",
+      "url": "https://www.england.nhs.uk/long-read/building-an-integrated-rules-based-medical-technology-medtech-pathway-engagement-on-proposals/",
+      "source_org": "NHS England",
+      "action_ids": [
+        "29"
+      ],
+      "evidence_type": "consultation",
+      "effect": "progress",
+      "published_at_override": "2025-10-01",
+      "milestone_keywords": [
+        "RBP",
+        "Rules Based Pathway",
+        "Innovator Passport"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "NHS England &raquo; Building an integrated, rules-based medical technology (medtech) pathway: engagement on proposals",
+      "published_at": "2025-10-01",
+      "summary": "Change my preferences I'm OK with analytics cookies"
+    },
+    {
+      "id": "nhs_financial_performance_update_sep_2025",
+      "label": "NHS England financial performance update 23 September 2025",
+      "url": "https://www.england.nhs.uk/long-read/financial-performance-update-23-sept-25/",
+      "source_org": "NHS England",
+      "action_ids": [
+        "29",
+        "30",
+        "31"
+      ],
+      "evidence_type": "board_update",
+      "effect": "progress",
+      "published_at_override": "2025-09-23",
+      "milestone_keywords": [
+        "RBP",
+        "Innovator Passport",
+        "Innovation Scorecard"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "NHS England &raquo; Financial performance update",
+      "published_at": "2025-09-23",
+      "summary": "Change my preferences I'm OK with analytics cookies"
+    },
+    {
+      "id": "medicines_optimisation_latest_update",
+      "label": "Latest update on archived medicines optimisation opportunities guidance",
+      "url": "https://www.england.nhs.uk/long-read/the-latest-information-on-the-opportunities-set-out-in-the-archived-national-medicines-optimisation-opportunities-guidance/",
+      "source_org": "NHS England",
+      "action_ids": [
+        "28",
+        "31"
+      ],
+      "evidence_type": "official_update",
+      "effect": "progress",
+      "published_at_override": "2026-02-26",
+      "milestone_keywords": [
+        "Innovation Scorecard"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "NHS England &raquo; The latest information on the opportunities set out in the archived National medicines optimisation opportunities guidance",
+      "published_at": "2026-02-26",
+      "summary": "Change my preferences I'm OK with analytics cookies"
+    },
+    {
+      "id": "life_sciences_healthcare_goals",
+      "label": "Life sciences healthcare goals",
+      "url": "https://www.gov.uk/government/publications/life-sciences-healthcare-goals",
+      "action_ids": [
+        "32"
+      ],
+      "evidence_type": "programme_page",
+      "effect": "progress",
+      "milestone_keywords": [
+        "Healthcare Goals"
+      ],
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "Life Sciences Healthcare Goals",
+      "published_at": "2025-12-16",
+      "summary": "Bringing together industry, academia, the third sector and the NHS to tackle healthcare challenges such as dementia, cancer, mental health, obesity and addiction."
+    },
+    {
+      "id": "increasing_research_activity_nhs",
+      "label": "Increasing research activity in the NHS",
+      "url": "https://www.england.nhs.uk/long-read/increasing-research-activity-in-the-nhs/",
+      "source_org": "NHS England",
+      "action_ids": [
+        "12",
+        "24",
+        "33"
+      ],
+      "evidence_type": "board_update",
+      "effect": "claim",
+      "published_at_override": "2025-12-05",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "title": "NHS England &raquo; Increasing research activity in the NHS",
+      "published_at": "2025-12-05",
+      "summary": "Change my preferences I'm OK with analytics cookies"
+    }
+  ],
+  "ministers": [
+    {
+      "id": "science",
+      "label": "Minister of State (Minister for Science, Innovation, Research and Nuclear)",
+      "url": "https://www.gov.uk/government/ministers/minister-of-state-minister-for-science-innovation-research-and-nuclear",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "current_holder": "Lord Vallance",
+      "published_at": "2025-09-23",
+      "page_title": "Minister of State (Minister for Science, Innovation, Research and Nuclear) - GOV.UK"
+    },
+    {
+      "id": "health_innovation",
+      "label": "Parliamentary Under-Secretary of State for Health Innovation and Safety",
+      "url": "https://www.gov.uk/government/ministers/parliamentary-under-secretary-of-state--286",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "current_holder": "Dr Zubir Ahmed MP",
+      "published_at": "2025-10-02",
+      "page_title": "Parliamentary Under-Secretary of State for Health Innovation and Safety - GOV.UK"
+    },
+    {
+      "id": "investment",
+      "label": "Minister of State (Minister for Investment)",
+      "url": "https://www.gov.uk/government/ministers/minister-of-state-minister-for-investment--2",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "current_holder": "Lord Stockwood",
+      "published_at": "2025-12-29",
+      "page_title": "Minister of State (Minister for Investment) - GOV.UK"
+    },
+    {
+      "id": "skills",
+      "label": "Minister of State (Minister for Skills)",
+      "url": "https://www.gov.uk/government/ministers/minister-of-state--175",
+      "ok": true,
+      "fetched_at": "2026-03-10T16:49:31Z",
+      "current_holder": "The Rt Hon Baroness Smith of Malvern",
+      "published_at": "2025-12-05",
+      "page_title": "Minister of State (Minister for Skills) - GOV.UK"
+    }
+  ]
+}

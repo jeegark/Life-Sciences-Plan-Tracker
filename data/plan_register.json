@@ -1,0 +1,1585 @@
+{
+  "meta": {
+    "generated_at": "2026-03-10T15:51:02Z",
+    "source_url": "https://www.gov.uk/government/publications/life-sciences-sector-plan/life-sciences-sector-plan",
+    "plan_launch_date": "2025-07-16",
+    "roadmap_items": 37,
+    "action_count": 38
+  },
+  "actions": [
+    {
+      "id": "1",
+      "display_number": "1",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "The government will continue to invest at scale in discovery science",
+      "action_text": "The government will continue to invest at scale in discovery science.",
+      "territory": "UK",
+      "lead_official_role": "Executive Chair",
+      "lead_body": "Medical Research Council",
+      "metrics_text": "Levels of funding for discovery research through UKRI budgets.",
+      "milestones": [],
+      "undated_metrics": [
+        "Levels of funding for discovery research through UKRI budgets."
+      ]
+    },
+    {
+      "id": "2a",
+      "display_number": "2a",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Establish pre-clinical translational infrastructure and translational networks",
+      "action_text": "Establish pre-clinical translational infrastructure and translational networks.",
+      "territory": null,
+      "lead_official_role": "Executive Chair",
+      "lead_body": "Medical Research Council",
+      "metrics_text": "By 2026, establishment of Pre-Clinical Translational Hub.\nBy 2026, the establishment of at least one Translational Network.\nTrack industrial co-investment leveraged by Network(s).\nBy 2026, establishment of Pre-Clinical Translational Hub.",
+      "milestones": [
+        {
+          "id": "roadmap-as-part-of-our-pre-clinical-translational-infrastructure-mrc-will-establish-a-pre-clinical-translational-hub-2026-12-31",
+          "title": "As part of our pre-clinical translational infrastructure, MRC will Establish a Pre-Clinical Translational Hub.",
+          "text": "(- Pharma and MedTech) By end 2026: As part of our pre-clinical translational infrastructure, MRC will\nEstablish a Pre-Clinical Translational Hub.",
+          "due_label": "By end 2026",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-establishment-of-pre-clinical-translational-hub-2026-12-31",
+          "title": "establishment of Pre-Clinical Translational Hub.",
+          "text": "By 2026, establishment of Pre-Clinical Translational Hub.",
+          "due_label": "By 2026,",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "annex-metric-the-establishment-of-at-least-one-translational-network-2026-12-31",
+          "title": "the establishment of at least one Translational Network.",
+          "text": "By 2026, the establishment of at least one Translational Network.",
+          "due_label": "By 2026,",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-mrc-will-establish-a-further-2-translational-research-networks-2028-12-31",
+          "title": "MRC will establish a further 2 translational research networks.",
+          "text": "(Pharma and MedTech) By 2028: MRC will establish a further 2 translational research networks.",
+          "due_label": "By 2028",
+          "due_date": "2028-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Track industrial co-investment leveraged by Network(s)."
+      ]
+    },
+    {
+      "id": "2b",
+      "display_number": "2b",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Publish the alternative methods strategy",
+      "action_text": "Publish a strategy to support the development, validation, and uptake of alternative methods.",
+      "territory": null,
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "By December 2025, government to publish Alternative Methods Strategy.",
+      "milestones": [
+        {
+          "id": "annex-metric-government-to-publish-alternative-methods-strategy-2025-12-31",
+          "title": "government to publish Alternative Methods Strategy.",
+          "text": "By December 2025, government to publish Alternative Methods Strategy.",
+          "due_label": "By December 2025,",
+          "due_date": "2025-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "3",
+      "display_number": "3",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "The government will cut bureaucracy and standardise contracts to reduce the set-up time for commercial interventional clinical trials to <150 days by March 2026",
+      "action_text": "The government will cut bureaucracy and standardise contracts to reduce the set-up time for commercial interventional clinical trials to <150 days by March 2026",
+      "territory": "UK",
+      "lead_official_role": "Chief Scientific Adviser",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "By March 2026, 95% of commercial interventional trial in England to deliver set up within 150 days (from IRAS submission to recruitment of first participant).\nNumber of patients recruited to commercial interventional clinical trials per year.\nNumber of commercial interventional clinical trial starts per year.",
+      "milestones": [
+        {
+          "id": "annex-metric-95-of-commercial-interventional-trial-in-england-to-deliver-set-up-within-150-days-from-iras-submission-to-recruitment-of-first-participant-2026-03-31",
+          "title": "95% of commercial interventional trial in England to deliver set up within 150 days (from IRAS submission to recruitment of first participant).",
+          "text": "By March 2026, 95% of commercial interventional trial in England to deliver set up within 150 days (from IRAS submission to recruitment of first participant).",
+          "due_label": "By March 2026,",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-commercial-clinical-trial-approval-and-set-up-time-will-be-150-days-or-less-2026-03-31",
+          "title": "Commercial Clinical Trial approval and set up time will be 150 days or less.",
+          "text": "(Pharma and MedTech) By March 2026: Commercial Clinical Trial approval and set up time will be 150 days or less.",
+          "due_label": "By March 2026",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Number of patients recruited to commercial interventional clinical trials per year.",
+        "Number of commercial interventional clinical trial starts per year."
+      ]
+    },
+    {
+      "id": "4",
+      "display_number": "4",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Significantly expand commercial clinical trials capacity via funding from the Voluntary Scheme for Branded Medicines Pricing, Access and Growth (VPAG) Investment Programme",
+      "action_text": "Significantly expand commercial clinical trials capacity via funding from the Voluntary Scheme for Branded Medicines Pricing, Access and Growth (VPAG) Investment Programme.",
+      "territory": null,
+      "lead_official_role": "Chief Scientific Adviser",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "Significantly expand commercial clinical trials capacity via funding from the Voluntary Scheme for Branded Medicines Pricing, Access and Growth (VPAG) Investment Programme.",
+      "milestones": [],
+      "undated_metrics": [
+        "Significantly expand commercial clinical trials capacity via funding from the Voluntary Scheme for Branded Medicines Pricing, Access and Growth (VPAG) Investment Programme."
+      ]
+    },
+    {
+      "id": "5",
+      "display_number": "5",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Substantially enhance the UKRI offer to Biotech and MedTech SMEs",
+      "action_text": "Substantially enhance the UKRI offer to Biotech and MedTech SMEs.",
+      "territory": "UK-wide collaboration, UK",
+      "lead_official_role": "Executive Director, Healthy Living and Agriculture",
+      "lead_body": "Innovate UK",
+      "metrics_text": "By March 2026, improve coordination with NIHR activity.\nBy March 2026, work with system partners to identify game changing technologies for IUK Biomedical Catalyst support",
+      "milestones": [
+        {
+          "id": "roadmap-ukri-will-have-delivered-improved-coordination-with-nihr-activity-and-be-working-to-support-smes-2026-03-31",
+          "title": "UKRI will have delivered improved coordination with NIHR activity and be working to support SMEs.",
+          "text": "(Pharma and MedTech) By March 2026: UKRI will have delivered improved coordination with NIHR activity and be working to support SMEs.",
+          "due_label": "By March 2026",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-ukri-will-have-identified-game-changing-technologies-for-iuk-biomedical-catalyst-support-2026-03-31",
+          "title": "UKRI will have identified game-changing technologies for IUK Biomedical Catalyst support.",
+          "text": "(Pharma and MedTech) By March 2026: UKRI will have identified game-changing technologies for IUK Biomedical Catalyst support.",
+          "due_label": "By March 2026",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-improve-coordination-with-nihr-activity-2026-03-31",
+          "title": "improve coordination with NIHR activity.",
+          "text": "By March 2026, improve coordination with NIHR activity.",
+          "due_label": "By March 2026,",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "annex-metric-work-with-system-partners-to-identify-game-changing-technologies-for-iuk-biomedical-catalyst-support-2026-03-31",
+          "title": "work with system partners to identify game changing technologies for IUK Biomedical Catalyst support",
+          "text": "By March 2026, work with system partners to identify game changing technologies for IUK Biomedical Catalyst support",
+          "due_label": "By March 2026,",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "6",
+      "display_number": "6",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Substantially enhance the NIHR offer to Biotech and MedTech SMEs to develop and evaluate high value innovation, including new digital connectivity to increase the speed and scale of real-world evaluations of AI",
+      "action_text": "Substantially enhance the NIHR offer to Biotech and MedTech SMEs to develop and evaluate high value innovation, including new digital connectivity to increase the speed and scale of real-world evaluations of AI.",
+      "territory": "England",
+      "lead_official_role": "Director, Science, Research and Evidence",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "By 2026, launch the NIHR Innovation Catalyst.\nBy 2030, at least 2 innovations supported by the NIHR innovation catalyst going through regulatory approvals and being considered for adoption by the health and care system.\nBy end 2026, AI Research Screening Platform stood up.",
+      "milestones": [
+        {
+          "id": "annex-metric-ai-research-screening-platform-stood-up-2026-12-31",
+          "title": "AI Research Screening Platform stood up.",
+          "text": "By end 2026, AI Research Screening Platform stood up.",
+          "due_label": "By end 2026,",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-nihr-will-launch-an-ai-research-screening-platform-2026-12-31",
+          "title": "NIHR will launch an AI Research Screening Platform.",
+          "text": "(Pharma and MedTech) By end 2026: NIHR will launch an AI Research Screening Platform.",
+          "due_label": "By end 2026",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-launch-the-nihr-innovation-catalyst-2026-12-31",
+          "title": "launch the NIHR Innovation Catalyst.",
+          "text": "By 2026, launch the NIHR Innovation Catalyst.",
+          "due_label": "By 2026,",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "annex-metric-at-least-2-innovations-supported-by-the-nihr-innovation-catalyst-going-through-regulatory-approvals-and-being-considered-for-adoption-by-the-health-and-care-system-2030-12-31",
+          "title": "at least 2 innovations supported by the NIHR innovation catalyst going through regulatory approvals and being considered for adoption by the health and care system.",
+          "text": "By 2030, at least 2 innovations supported by the NIHR innovation catalyst going through regulatory approvals and being considered for adoption by the health and care system.",
+          "due_label": "By 2030,",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "7",
+      "display_number": "7",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Establish the national HDRS",
+      "action_text": "Establish the national HDRS.",
+      "territory": "England and > UK-wide collaboration",
+      "lead_official_role": "CEO",
+      "lead_body": "HDRS",
+      "metrics_text": "By Autumn 2025, the CEO and Chair for HDRS will be appointed.\nBy 2026, go live with minimum viable product for HDRS.\nFrom December 2026, new data will be made available in HDRS on an iterative basis.\nBy 2027 the service will measure user satisfaction with the service\u2019s capacity and capabilities through regular surveys, delivering continuously improving level of user feedback.\nBy 2030, the HDRS will provide timely access and a single point of entry to the UK\u2019s breadth of general practice, hospital episodes, prescribing/dispensing and death registration data covering the whole population, with AI-ready datasets including linked pathology, radiology and genomic data.\nService design will be in collaboration with partners in the devolved governments.\nHDRS will increase the number of data-enabled research projects, evidenced through an increase in the proportion of data access compared to data sharing and the number of data-enabled clinical trials conducted.",
+      "milestones": [
+        {
+          "id": "annex-metric-the-ceo-and-chair-for-hdrs-will-be-appointed-2025-11-30",
+          "title": "the CEO and Chair for HDRS will be appointed.",
+          "text": "By Autumn 2025, the CEO and Chair for HDRS will be appointed.",
+          "due_label": "By Autumn 2025,",
+          "due_date": "2025-11-30",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-launch-of-the-minimum-viable-product-for-the-hdrs-2026-09-30",
+          "title": "Launch of the minimum viable product for the HDRS.",
+          "text": "(Pharma and MedTech) By September 2026: Launch of the minimum viable product for the HDRS.",
+          "due_label": "By September 2026",
+          "due_date": "2026-09-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-new-data-assets-will-be-brought-into-scope-for-the-hdrs-on-a-prioritised-basis-2026-12-01",
+          "title": "New data assets will be brought into scope for the HDRS on a prioritised basis.",
+          "text": "(Pharma and MedTech) From December 2026: New data assets will be brought into scope for the HDRS on a prioritised basis.",
+          "due_label": "From December 2026",
+          "due_date": "2026-12-01",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-new-data-will-be-made-available-in-hdrs-on-an-iterative-basis-2026-12-01",
+          "title": "new data will be made available in HDRS on an iterative basis.",
+          "text": "From December 2026, new data will be made available in HDRS on an iterative basis.",
+          "due_label": "From December 2026,",
+          "due_date": "2026-12-01",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "annex-metric-go-live-with-minimum-viable-product-for-hdrs-2026-12-31",
+          "title": "go live with minimum viable product for HDRS.",
+          "text": "By 2026, go live with minimum viable product for HDRS.",
+          "due_label": "By 2026,",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-hdrs-will-begin-creating-uk-wide-service-2027-04-01",
+          "title": "HDRS will begin creating UK-wide service.",
+          "text": "(Pharma and MedTech) From April 2027:\nHDRS will begin creating UK-wide service.",
+          "due_label": "From April 2027",
+          "due_date": "2027-04-01",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-the-service-will-measure-user-satisfaction-with-the-service-s-capacity-and-capabilities-through-regular-surveys-delivering-continuously-improving-level-of-user-feedback-2027-12-31",
+          "title": "the service will measure user satisfaction with the service\u2019s capacity and capabilities through regular surveys, delivering continuously improving level of user feedback.",
+          "text": "By 2027 the service will measure user satisfaction with the service\u2019s capacity and capabilities through regular surveys, delivering continuously improving level of user feedback.",
+          "due_label": "By 2027",
+          "due_date": "2027-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "annex-metric-the-hdrs-will-provide-timely-access-and-a-single-point-of-entry-to-the-uk-s-breadth-of-general-practice-hospital-episodes-prescribing-dispensing-and-death-registration-data-covering-the-whole-population-with-ai-ready-datasets-including-linked-pathology-radiology-and-genomic-data-2030-12-31",
+          "title": "the HDRS will provide timely access and a single point of entry to the UK\u2019s breadth of general practice, hospital episodes, prescribing/dispensing and death registration data covering the whole population, with AI-ready datasets including linked pathology, radiology and genomic data.",
+          "text": "By 2030, the HDRS will provide timely access and a single point of entry to the UK\u2019s breadth of general practice, hospital episodes, prescribing/dispensing and death registration data covering the whole population, with AI-ready datasets including linked pathology, radiology and genomic data.",
+          "due_label": "By 2030,",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": [
+        "Service design will be in collaboration with partners in the devolved governments.",
+        "HDRS will increase the number of data-enabled research projects, evidenced through an increase in the proportion of data access compared to data sharing and the number of data-enabled clinical trials conducted."
+      ]
+    },
+    {
+      "id": "8",
+      "display_number": "8",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Government will use a combination of policy and legislative change to speed up access to health data for research and other secondary purposes, streamlining governance processes to maintain core safeguards while operating in a more efficient way",
+      "action_text": "Government will use a combination of policy and legislative change to speed up access to health data for research and other secondary purposes, streamlining governance processes to maintain core safeguards while operating in a more efficient way.",
+      "territory": "UK",
+      "lead_official_role": "Director",
+      "lead_body": "Joint Digital Policy Unit",
+      "metrics_text": "By the end of 2026, parliament permitting, pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002 to provide a clearer, more flexible rules-based legal basis for health and care organisations (and their data processors), to access, use and share de-identified information for secondary purposes.\nSubject to sufficient progress on legislative change, by the end of 2026, reform the wider NHS research data access approvals and governance system to better reflect risk and safeguards in the context of privacy protecting Secure Data Environments and move towards consolidating multiple research applications across different organisations into more streamlined processes, supporting delivery of the HDRS.\nBy the end of 2027, build on public engagement and work with the system, including clinical staff, to move towards national and regional models of decision making for access to all NHS data for secondary uses. GPs, other health professionals and the public will continue to have a critical role in decision making for research uses in any future system. Working collaboratively with the devolved governments and their respective approaches to accessing health data, seek to establish a common framework for UK-wide data access.",
+      "milestones": [
+        {
+          "id": "roadmap-implementation-of-reform-to-the-wider-nhs-research-data-access-approvals-and-governance-system-in-relation-to-data-access-use-and-sharing-and-subject-to-legislative-progress-2026-12-31",
+          "title": "Implementation of reform to the wider NHS research data access approvals and governance system in relation to data access, use and sharing, and, subject to legislative progress.",
+          "text": "(Pharma and MedTech) By end 2026: Implementation of reform to the wider NHS research data access approvals and governance system in relation to data access, use and sharing, and, subject to legislative progress.",
+          "due_label": "By end 2026",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-in-relation-to-data-access-use-and-sharing-and-parliament-permitting-the-government-will-pass-regulations-reforming-the-current-health-service-control-of-patient-information-copi-regulations-of-2002-2026-12-31",
+          "title": "In relation to data access, use and sharing, and Parliament permitting, the government will pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002.",
+          "text": "(Pharma and MedTech) By end 2026: In relation to data access, use and sharing, and Parliament permitting, the government will pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002.",
+          "due_label": "By end 2026",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-parliament-permitting-pass-regulations-reforming-the-current-health-service-control-of-patient-information-copi-regulations-of-2002-to-provide-a-clearer-more-flexible-rules-based-legal-basis-for-health-and-care-organisations-and-their-data-processors-to-access-use-and-share-de-identified-information-for-secondary-purposes-2026-12-31",
+          "title": "parliament permitting, pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002 to provide a clearer, more flexible rules-based legal basis for health and care organisations (and their data processors), to access, use and share de-identified information for secondary purposes.",
+          "text": "By the end of 2026, parliament permitting, pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002 to provide a clearer, more flexible rules-based legal basis for health and care organisations (and their data processors), to access, use and share de-identified information for secondary purposes.",
+          "due_label": "By the end of 2026,",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "annex-metric-build-on-public-engagement-and-work-with-the-system-including-clinical-staff-to-move-towards-national-and-regional-models-of-decision-making-for-access-to-all-nhs-data-for-secondary-uses-gps-other-health-professionals-and-the-public-will-continue-to-have-a-critical-role-in-decision-making-for-research-uses-in-any-future-system-working-collaboratively-with-the-devolved-governments-and-their-respective-approaches-to-accessing-health-data-seek-to-establish-a-common-framework-for-uk-wide-data-access-2027-12-31",
+          "title": "build on public engagement and work with the system, including clinical staff, to move towards national and regional models of decision making for access to all NHS data for secondary uses. GPs, other health professionals and the public will continue to have a critical role in decision making for research uses in any future system. Working collaboratively with the devolved governments and their respective approaches to accessing health data, seek to establish a common framework for UK-wide data access.",
+          "text": "By the end of 2027, build on public engagement and work with the system, including clinical staff, to move towards national and regional models of decision making for access to all NHS data for secondary uses. GPs, other health professionals and the public will continue to have a critical role in decision making for research uses in any future system. Working collaboratively with the devolved governments and their respective approaches to accessing health data, seek to establish a common framework for UK-wide data access.",
+          "due_label": "By the end of 2027,",
+          "due_date": "2027-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": [
+        "Subject to sufficient progress on legislative change, by the end of 2026, reform the wider NHS research data access approvals and governance system to better reflect risk and safeguards in the context of privacy protecting Secure Data Environments and move towards consolidating multiple research applications across different organisations into more streamlined processes, supporting delivery of the HDRS."
+      ]
+    },
+    {
+      "id": "9i",
+      "display_number": "9 i",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Expand UK Biobank research capability",
+      "action_text": "Expand and enhance the UK\u2019s consented health research datasets and develop the cutting- edge infrastructure needed to deliver a comprehensive genomics ecosystem, maximising patient benefit, with the potential for genomics to contribute to half of all healthcare interventions by 2035 \u2013 UK BioBank",
+      "territory": "UK",
+      "lead_official_role": "Executive Chair",
+      "lead_body": "Medical Research Council",
+      "metrics_text": "By 2030, UK Biobank will have expanded the impact of its pre-eminent biomedical research resource with enhanced characterisation of participants. This will include proteomic analyses of all 500,000 participants alongside other multiomic data, and their health outcomes via linked primary and secondary care health records available within the UK Biobank Research Analysis Platform, maximising the value of this data.",
+      "milestones": [
+        {
+          "id": "roadmap-uk-biobank-will-expand-its-biomedical-research-resource-with-enhanced-participant-characterisation-2030-12-31",
+          "title": "UK Biobank will expand its biomedical research resource with enhanced participant characterisation.",
+          "text": "(Pharma and MedTech) By 2030: UK Biobank will expand its biomedical research resource with enhanced participant characterisation.",
+          "due_label": "By 2030",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-uk-biobank-will-have-expanded-the-impact-of-its-pre-eminent-biomedical-research-resource-with-enhanced-characterisation-of-participants-this-will-include-proteomic-analyses-of-all-500-000-participants-alongside-other-multiomic-data-and-their-health-outcomes-via-linked-primary-and-secondary-care-health-records-available-within-the-uk-biobank-research-analysis-platform-maximising-the-value-of-this-data-2030-12-31",
+          "title": "UK Biobank will have expanded the impact of its pre-eminent biomedical research resource with enhanced characterisation of participants. This will include proteomic analyses of all 500,000 participants alongside other multiomic data, and their health outcomes via linked primary and secondary care health records available within the UK Biobank Research Analysis Platform, maximising the value of this data.",
+          "text": "By 2030, UK Biobank will have expanded the impact of its pre-eminent biomedical research resource with enhanced characterisation of participants. This will include proteomic analyses of all 500,000 participants alongside other multiomic data, and their health outcomes via linked primary and secondary care health records available within the UK Biobank Research Analysis Platform, maximising the value of this data.",
+          "due_label": "By 2030,",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "9ii",
+      "display_number": "9 ii",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Scale Our Future Health as a clinical trials resource",
+      "action_text": "Expand and enhance the UK\u2019s consented health research datasets and develop the cutting- edge infrastructure needed to deliver a comprehensive genomics ecosystem, maximising patient benefit, with the potential for genomics to contribute to half of all healthcare interventions by 2035 Our Future Health",
+      "territory": "UK",
+      "lead_official_role": "Executive Chair",
+      "lead_body": "Medical Research Council",
+      "metrics_text": "By 2030, Our Future Health will have become the largest longitudinal health research cohort and clinical trials resource in the world, with up to 5 million consented participants with linked primary and secondary care health data, genomic data and biobanked samples, and 10,000 incident cases for more than 100 diseases occurring in the following 2.5 years. Our Future Health will also facilitate 50,000 participants in commercial clinical trials per year by 2030 (1% of consented participants).",
+      "milestones": [
+        {
+          "id": "annex-metric-our-future-health-will-have-become-the-largest-longitudinal-health-research-cohort-and-clinical-trials-resource-in-the-world-with-up-to-5-million-consented-participants-with-linked-primary-and-secondary-care-health-data-genomic-data-and-biobanked-samples-and-10-000-incident-cases-for-more-than-100-diseases-occurring-in-the-following-2-5-years-our-future-health-will-also-facilitate-50-000-participants-in-commercial-clinical-trials-per-year-by-2030-1-of-consented-participants-2030-12-31",
+          "title": "Our Future Health will have become the largest longitudinal health research cohort and clinical trials resource in the world, with up to 5 million consented participants with linked primary and secondary care health data, genomic data and biobanked samples, and 10,000 incident cases for more than 100 diseases occurring in the following 2.5 years. Our Future Health will also facilitate 50,000 participants in commercial clinical trials per year by 2030 (1% of consented participants).",
+          "text": "By 2030, Our Future Health will have become the largest longitudinal health research cohort and clinical trials resource in the world, with up to 5 million consented participants with linked primary and secondary care health data, genomic data and biobanked samples, and 10,000 incident cases for more than 100 diseases occurring in the following 2.5 years. Our Future Health will also facilitate 50,000 participants in commercial clinical trials per year by 2030 (1% of consented participants).",
+          "due_label": "By 2030,",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "9iii",
+      "display_number": "9 iii",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Expand Genomics England's research database",
+      "action_text": "Expand and enhance the UK\u2019s consented health research datasets and develop the cutting- edge infrastructure needed to deliver a comprehensive genomics ecosystem, maximising patient benefit, with the potential for genomics to contribute to half of all healthcare interventions by 2035 \u2013 Genomics England.",
+      "territory": "England",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "By 2030, Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes, including those from the NHS Whole Genome Sequencing service, the Generation Study, and the Adult Population Genomics Programme. These programmes will return results to participants, while building evidence and digital infrastructure to position the UK as the leader in genomics-enabled prevention, diagnostics and clinical trials and the testing and use of genomic innovations and AI.",
+      "milestones": [
+        {
+          "id": "annex-metric-genomics-england-will-host-one-of-the-largest-genomic-research-databases-globally-with-over-500-000-genomes-including-those-from-the-nhs-whole-genome-sequencing-service-the-generation-study-and-the-adult-population-genomics-programme-these-programmes-will-return-results-to-participants-while-building-evidence-and-digital-infrastructure-to-position-the-uk-as-the-leader-in-genomics-enabled-prevention-diagnostics-and-clinical-trials-and-the-testing-and-use-of-genomic-innovations-and-ai-2030-12-31",
+          "title": "Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes, including those from the NHS Whole Genome Sequencing service, the Generation Study, and the Adult Population Genomics Programme. These programmes will return results to participants, while building evidence and digital infrastructure to position the UK as the leader in genomics-enabled prevention, diagnostics and clinical trials and the testing and use of genomic innovations and AI.",
+          "text": "By 2030, Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes, including those from the NHS Whole Genome Sequencing service, the Generation Study, and the Adult Population Genomics Programme. These programmes will return results to participants, while building evidence and digital infrastructure to position the UK as the leader in genomics-enabled prevention, diagnostics and clinical trials and the testing and use of genomic innovations and AI.",
+          "due_label": "By 2030,",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-genomics-england-will-host-one-of-the-largest-genomic-research-databases-globally-with-over-500-000-genomes-2030-12-31",
+          "title": "Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes.",
+          "text": "(Pharma and MedTech) By 2030: Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes.",
+          "due_label": "By 2030",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "9iv",
+      "display_number": "9 iv",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Use NHS genomic networks to accelerate adoption of genomic innovation",
+      "action_text": "Expand and enhance the UK\u2019s consented health research datasets and develop the cutting- edge infrastructure needed to deliver a comprehensive genomics ecosystem, maximising patient benefit, with the potential for genomics to contribute to half of all healthcare interventions by 2035 \u2013 NHS Genomics Medicine Science.",
+      "territory": "England",
+      "lead_official_role": "Chief Scientific Officer",
+      "lead_body": "NHS England",
+      "metrics_text": "The NHS Genomics Medicine Science will work with industry and academia through the NHS Genomic Networks of Excellence to assess the latest genomic innovations in specific priority areas, such as pharmacogenomics. This will ensure that the most effective tests are accessible to patients across England via the National Genomic Test Directory. Additionally, the GMS will work with industry to streamline testing processes, reducing turnaround times so that patients receive timely results.",
+      "milestones": [],
+      "undated_metrics": [
+        "The NHS Genomics Medicine Science will work with industry and academia through the NHS Genomic Networks of Excellence to assess the latest genomic innovations in specific priority areas, such as pharmacogenomics. This will ensure that the most effective tests are accessible to patients across England via the National Genomic Test Directory. Additionally, the GMS will work with industry to streamline testing processes, reducing turnaround times so that patients receive timely results."
+      ]
+    },
+    {
+      "id": "10",
+      "display_number": "10",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "The government will shift investment in health R&D with a focus on primary and secondary prevention and Multiple Long-Term Conditions (MLTCs)",
+      "action_text": "The government will shift investment in health R&D with a focus on primary and secondary prevention and Multiple Long-Term Conditions (MLTCs).",
+      "territory": "UK",
+      "lead_official_role": "Chief Scientific Adviser",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "Over the next 5 years, we will see a sustained increase in government health and biomedical R&D funding focused on this area, utilising UK Health Research Analysis to monitor this. There is potential to supplement this with more frequent reporting and monitoring of health research funding to create a regular view of expenditure.",
+      "milestones": [
+        {
+          "id": "roadmap-there-will-have-been-a-sustained-increase-in-r-d-funding-towards-prevention-and-multiple-long-term-conditions-tracked-via-uk-health-research-analysis-data-2030-12-31",
+          "title": "There will have been a sustained increase in R&D funding towards prevention and Multiple Long-Term Conditions \u2013 tracked via \u2018UK Health Research Analysis\u2019 data.",
+          "text": "(Pharma and MedTech) By the end of 2030: There will have been a sustained increase in R&D funding towards prevention and Multiple Long-Term Conditions \u2013 tracked via \u2018UK Health Research Analysis\u2019 data.",
+          "due_label": "By the end of 2030",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Over the next 5 years, we will see a sustained increase in government health and biomedical R&D funding focused on this area, utilising UK Health Research Analysis to monitor this. There is potential to supplement this with more frequent reporting and monitoring of health research funding to create a regular view of expenditure."
+      ]
+    },
+    {
+      "id": "11",
+      "display_number": "11",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Create a UK-wide research portfolio database and management tool",
+      "action_text": "The government will promote closer coordination and collaboration across the UK health and Life Sciences research funders \u2013 creation of a UK-wide research portfolio database and management tool.",
+      "territory": "UK",
+      "lead_official_role": "Executive Chair",
+      "lead_body": "Medical Research Council",
+      "metrics_text": "By September 2026, an OSCHR-led, UK-wide research portfolio database and management tool will have been created.",
+      "milestones": [
+        {
+          "id": "annex-metric-an-oschr-led-uk-wide-research-portfolio-database-and-management-tool-will-have-been-created-2026-09-30",
+          "title": "an OSCHR-led, UK-wide research portfolio database and management tool will have been created.",
+          "text": "By September 2026, an OSCHR-led, UK-wide research portfolio database and management tool will have been created.",
+          "due_label": "By September 2026,",
+          "due_date": "2026-09-30",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "11ii",
+      "display_number": "11 ii",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "Create a single searchable database of clinical trial activity",
+      "action_text": "Government will promote closer coordination and collaboration across the UK health and Life Sciences research funders \u2013 single searchable database of clinical trial activity.",
+      "territory": "UK",
+      "lead_official_role": "Chief Scientific Adviser",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "By June 2026, design and create a single searchable database of clinical trial activity.",
+      "milestones": [
+        {
+          "id": "roadmap-dhsc-will-have-created-a-single-searchable-database-of-clinical-trial-activity-2026-06-30",
+          "title": "DHSC will have created a single searchable database of clinical trial activity.",
+          "text": "(Pharma and MedTech) By June 2026: DHSC will have created a single searchable database of clinical trial activity.",
+          "due_label": "By June 2026",
+          "due_date": "2026-06-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-design-and-create-a-single-searchable-database-of-clinical-trial-activity-2026-06-30",
+          "title": "design and create a single searchable database of clinical trial activity.",
+          "text": "By June 2026, design and create a single searchable database of clinical trial activity.",
+          "due_label": "By June 2026,",
+          "due_date": "2026-06-30",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "12",
+      "display_number": "12",
+      "pillar_id": "rd",
+      "pillar_title": "Enabling world class R&D",
+      "title": "The government will update NIHR\u2019s governance model and require the NIHR to work to a dual health and growth mandate, driving focus on activity which is growth-maximising alongside improving health outcomes, building a strong foundation for future research",
+      "action_text": "The government will update NIHR\u2019s governance model and require the NIHR to work to a dual health and growth mandate, driving focus on activity which is growth-maximising alongside improving health outcomes, building a strong foundation for future research.",
+      "territory": "England",
+      "lead_official_role": "Chief Scientific Adviser",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "By October 2025, set out a delivery plan and metrics for maximising economic growth paired with improving health.",
+      "milestones": [
+        {
+          "id": "roadmap-publication-of-nihr-s-improving-health-and-economic-growth-delivery-plan-2025-10-31",
+          "title": "Publication of NIHR\u2019s improving health and economic growth delivery plan.",
+          "text": "(Pharma and MedTech) By October 2025: Publication of NIHR\u2019s improving health and economic growth delivery plan.",
+          "due_label": "By October 2025",
+          "due_date": "2025-10-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "annex-metric-set-out-a-delivery-plan-and-metrics-for-maximising-economic-growth-paired-with-improving-health-2025-10-31",
+          "title": "set out a delivery plan and metrics for maximising economic growth paired with improving health.",
+          "text": "By October 2025, set out a delivery plan and metrics for maximising economic growth paired with improving health.",
+          "due_label": "By October 2025,",
+          "due_date": "2025-10-31",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        }
+      ],
+      "undated_metrics": []
+    },
+    {
+      "id": "13",
+      "display_number": "13",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Deploy additional British Business Bank growth capital for life sciences",
+      "action_text": "The Life Sciences sector will benefit as the BBB commits an additional \u00a34 billion of Industrial Strategy Growth Capital to support investment and growth in the IS-8.",
+      "territory": "UK",
+      "lead_official_role": "CEO",
+      "lead_body": "British Business Bank",
+      "metrics_text": "Total, and global share of, equity finance raised by private Life Sciences companies headquartered in the UK.",
+      "milestones": [
+        {
+          "id": "roadmap-the-bbb-will-begin-deploying-new-industrial-strategy-capital-2026-03-31",
+          "title": "The BBB will begin deploying new Industrial Strategy capital.",
+          "text": "(Pharma and MedTech) By end Q1 2026/2027: The BBB will begin deploying new Industrial Strategy capital.",
+          "due_label": "By end Q1 2026/2027",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-the-bbb-will-enhance-monitoring-and-reporting-functions-to-track-investments-into-is-sectors-2026-03-31",
+          "title": "The BBB will enhance monitoring and reporting functions to track investments into IS sectors.",
+          "text": "(Pharma and MedTech) By end Q1 2026/2027: The BBB will enhance monitoring and reporting functions to track investments into IS sectors.",
+          "due_label": "By end Q1 2026/2027",
+          "due_date": "2026-03-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Total, and global share of, equity finance raised by private Life Sciences companies headquartered in the UK."
+      ]
+    },
+    {
+      "id": "14",
+      "display_number": "14",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Publish British Business Bank VC return data",
+      "action_text": "Crowd-in additional global investment into UK Life Sciences by publishing the BBB\u2019s VC investment return data.",
+      "territory": "UK",
+      "lead_official_role": "CEO",
+      "lead_body": "British Business Bank",
+      "metrics_text": "BBB VC to start publishing investment return data.",
+      "milestones": [],
+      "undated_metrics": [
+        "BBB VC to start publishing investment return data."
+      ]
+    },
+    {
+      "id": "15",
+      "display_number": "15",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Develop dedicated support for Life Sciences SMEs to export",
+      "action_text": "Develop dedicated support for Life Sciences SMEs to export.",
+      "territory": "UK",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "Value of UK Life Sciences exports, split by pharmaceuticals and medical technologies.\nTracking of sector sentiment and capability to export.",
+      "milestones": [],
+      "undated_metrics": [
+        "Value of UK Life Sciences exports, split by pharmaceuticals and medical technologies.",
+        "Tracking of sector sentiment and capability to export."
+      ]
+    },
+    {
+      "id": "16",
+      "display_number": "16",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Build a life sciences training and skills system",
+      "action_text": "Build a training and skills system that delivers a diverse and highly skilled Life Sciences workforce.",
+      "territory": "England",
+      "lead_official_role": "Director for Skills",
+      "lead_body": "Department for Education",
+      "metrics_text": "Tracking of sector sentiment on the strength of the UK Life Sciences training and skills system.",
+      "milestones": [
+        {
+          "id": "roadmap-government-will-publish-a-10-year-uk-research-workforce-strategy-and-a-3-year-implementation-plan-for-england-2025-11-30",
+          "title": "government will publish a 10 Year UK Research Workforce Strategy and a 3 year implementation plan for England.",
+          "text": "(Pharma and MedTech) By Autumn 2025: government will publish a 10 Year UK Research\nWorkforce Strategy and a 3 year implementation plan for England.",
+          "due_label": "By Autumn 2025",
+          "due_date": "2025-11-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-the-department-for-education-will-develop-a-new-post-16-education-and-skills-strategy-fulfilling-a-key-government-manifesto-commitment-2025-12-31",
+          "title": "The Department for Education will develop a new Post-16 Education and Skills Strategy, fulfilling a key government manifesto commitment.",
+          "text": "(Pharma and MedTech) By the end of 2025: The Department for Education will develop a new Post-16 Education and Skills Strategy, fulfilling a key government manifesto commitment.",
+          "due_label": "By the end of 2025",
+          "due_date": "2025-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-industry-engagement-will-launchas-part-of-a-review-of-priority-skills-needs-of-the-life-sciences-sector-2027-12-31",
+          "title": "Industry engagement will launchas part of a review of priority skills needs of the Life Sciences sector.",
+          "text": "(Pharma and MedTech) By the end of 2027: Industry engagement will launchas part of a review of priority skills needs of the Life Sciences sector.",
+          "due_label": "By the end of 2027",
+          "due_date": "2027-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-the-ols-department-of-education-and-department-for-business-and-trade-to-review-activity-across-all-skills-actions-and-set-priorities-2030-12-31",
+          "title": "The OLS, Department of Education and Department for Business and Trade to review activity across all skills actions and set priorities.",
+          "text": "(Pharma and MedTech) By the end of 2030: The OLS, Department of Education and Department for Business and Trade to review activity across all skills actions and set priorities.",
+          "due_label": "By the end of 2030",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Tracking of sector sentiment on the strength of the UK Life Sciences training and skills system."
+      ]
+    },
+    {
+      "id": "17",
+      "display_number": "17",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Deliver sector-specific life sciences skills programmes",
+      "action_text": "Maximise the use of existing programmes and deliver specific new programmes to improve sector-specific skills in identified high priority areas.",
+      "territory": "England",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "Volume of individuals receiving training through initiatives; and individual and business feedback on the quality of these.",
+      "milestones": [
+        {
+          "id": "roadmap-turing-ai-pioneer-fellowship-applications-open-which-life-sciences-talent-can-apply-to-2025-11-30",
+          "title": "Turing AI Pioneer Fellowship applications open which Life Sciences Talent can apply to.",
+          "text": "(Pharma and MedTech) Autumn 2025: Turing AI Pioneer Fellowship applications open which Life Sciences Talent can apply to.",
+          "due_label": "Autumn 2025",
+          "due_date": "2025-11-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-the-ols-will-work-with-the-futures-group-on-a-series-of-skills-focused-industry-workshops-2025-12-31",
+          "title": "The OLS will work with the Futures Group on a series of skills-focused industry workshops.",
+          "text": "(Pharma and MedTech) By end 2025: The OLS will work with the Futures Group on a series of skills-focused industry workshops.",
+          "due_label": "By end 2025",
+          "due_date": "2025-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-complete-implementation-of-7-healthcare-centres-of-excellence-in-regulatory-science-and-innovation-2026-05-31",
+          "title": "Complete implementation of 7 healthcare Centres of Excellence in Regulatory Science and Innovation.",
+          "text": "(Pharma and MedTech) Spring 2026: Complete implementation of 7 healthcare Centres of Excellence in Regulatory Science and Innovation.",
+          "due_label": "Spring 2026",
+          "due_date": "2026-05-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Volume of individuals receiving training through initiatives; and individual and business feedback on the quality of these."
+      ]
+    },
+    {
+      "id": "18",
+      "display_number": "18",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Use the Global Talent Taskforce and visa system to attract talent",
+      "action_text": "Promote UK strengths to exceptional international Life Sciences talent through the government\u2019s Global Talent Taskforce initiatives and ensure the visa system enables the movement of world class talent..",
+      "territory": "UK",
+      "lead_official_role": "Director for Global Talent",
+      "lead_body": "Department for Business and Trade",
+      "metrics_text": "Tracking of sector sentiment on the ease of recruiting globally mobile talent to the UK..",
+      "milestones": [
+        {
+          "id": "roadmap-the-global-talent-taskforce-will-be-established-which-will-help-attract-talent-from-the-is-8-including-life-sciences-2025-08-31",
+          "title": "The Global Talent Taskforce will be established, which will help attract talent from the IS-8, including Life Sciences.",
+          "text": "(Pharma and MedTech) Summer 2025: The Global Talent Taskforce will be established, which will help attract talent from the IS-8, including Life Sciences.",
+          "due_label": "Summer 2025",
+          "due_date": "2025-08-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Tracking of sector sentiment on the ease of recruiting globally mobile talent to the UK.."
+      ]
+    },
+    {
+      "id": "19",
+      "display_number": "19",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Deliver the Life Sciences Innovative Manufacturing Fund",
+      "action_text": "Deliver the \u00a3520 million Life Sciences Innovative Manufacturing Fund (LSIMF).",
+      "territory": "UK",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "Number of LSIMF investments supported.\nAmount of private investment leveraged though the LSIMF.\nNumber of jobs created and safeguarded by the LSIMF.\nValue of R&D spillovers delivered by LSIMF investments.",
+      "milestones": [],
+      "undated_metrics": [
+        "Number of LSIMF investments supported.",
+        "Amount of private investment leveraged though the LSIMF.",
+        "Number of jobs created and safeguarded by the LSIMF.",
+        "Value of R&D spillovers delivered by LSIMF investments."
+      ]
+    },
+    {
+      "id": "20",
+      "display_number": "20",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Continue to invest at scale in Life Sciences manufacturing innovation",
+      "action_text": "Continue to invest at scale in Life Sciences manufacturing innovation.",
+      "territory": "UK",
+      "lead_official_role": "Executive Director, Healthy Living and Agriculture",
+      "lead_body": "Innovate UK",
+      "metrics_text": "Industrial investment leveraged through government funding for manufacturing process innovation.\nOverall impact through tracking Life Sciences manufacturing productivity.",
+      "milestones": [],
+      "undated_metrics": [
+        "Industrial investment leveraged through government funding for manufacturing process innovation.",
+        "Overall impact through tracking Life Sciences manufacturing productivity."
+      ]
+    },
+    {
+      "id": "21",
+      "display_number": "21",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Refine implementation of the NHS Net Zero Roadmap",
+      "action_text": "Continue to refine the implementation of the NHS Net Zero Roadmap.",
+      "territory": "England",
+      "lead_official_role": "Chief Commercial Officer",
+      "lead_body": "NHS England",
+      "metrics_text": "The implementation of an agreed standard to measure progress towards net zero ambitions, supported by the health system and industry, for the Life Sciences sector.",
+      "milestones": [],
+      "undated_metrics": [
+        "The implementation of an agreed standard to measure progress towards net zero ambitions, supported by the health system and industry, for the Life Sciences sector."
+      ]
+    },
+    {
+      "id": "22",
+      "display_number": "22",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Land at least one major strategic partnership per year",
+      "action_text": "Land at least one major strategic partnership per year over the spending review period.",
+      "territory": "UK",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "The number of, and value of, investments achieved from new strategic partnerships secured across the health system.",
+      "milestones": [],
+      "undated_metrics": [
+        "The number of, and value of, investments achieved from new strategic partnerships secured across the health system."
+      ]
+    },
+    {
+      "id": "23",
+      "display_number": "23",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Support 10 to 20 high-potential UK companies to scale and stay in the UK",
+      "action_text": "Establish a dedicated service to support 10-20 high-potential UK companies to successfully scale, invest and remain domiciled in the UK.",
+      "territory": "UK",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "Number of Life Sciences companies listed on FTSE 350.\nNumber of IPOs by UK Life Sciences companies on the LSE and on overseas markets and amount raised overall.\nNumber of people employed by UK Life Sciences SMEs.",
+      "milestones": [],
+      "undated_metrics": [
+        "Number of Life Sciences companies listed on FTSE 350.",
+        "Number of IPOs by UK Life Sciences companies on the LSE and on overseas markets and amount raised overall.",
+        "Number of people employed by UK Life Sciences SMEs."
+      ]
+    },
+    {
+      "id": "24",
+      "display_number": "24",
+      "pillar_id": "invest",
+      "pillar_title": "Making the UK an outstanding place to start, grow, scale, and invest",
+      "title": "Strengthen the Health Innovation Network to drive innovation and investment",
+      "action_text": "Empower the Health Innovation Network to drive innovation and investment at scale by strengthening support.",
+      "territory": "England",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "At least \u00a3400 million of investment leveraged through Health Innovation Network support per year.\nAt least 1,000 jobs safeguarded or created through Health Innovation Network support per year.\nAt least one million patients benefitting a year from Health Innovation Network national programmes.",
+      "milestones": [],
+      "undated_metrics": [
+        "At least \u00a3400 million of investment leveraged through Health Innovation Network support per year.",
+        "At least 1,000 jobs safeguarded or created through Health Innovation Network support per year.",
+        "At least one million patients benefitting a year from Health Innovation Network national programmes."
+      ]
+    },
+    {
+      "id": "25",
+      "display_number": "25",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Reduce barriers to market entry through faster regulation",
+      "action_text": "Reduce unwarranted barriers to market entry, through faster, risk-proportionate and predictable routes to regulatory approval.",
+      "territory": "UK",
+      "lead_official_role": "CEO",
+      "lead_body": "MHRA",
+      "metrics_text": "Delivery against the MHRA\u2019s statutory performance standards for the licensure of new medicines.\nCompletion of the current medical devices regulatory reform programme, including:\nPublication of policy intent for early access and innovation by July 2025.\nIntroduction of the pre-market statutory instrument, including International Reliance Framework, to Parliament by Autumn 2026.\nMHRA digital transformation for processing enquiries and applications, using AI where appropriate by 2026.",
+      "milestones": [
+        {
+          "id": "roadmap-mhra-publication-of-medical-devices-statement-of-policy-intent-on-early-access-and-innovation-2025-07-31",
+          "title": "MHRA Publication of Medical Devices Statement of Policy Intent on Early Access and Innovation.",
+          "text": "(Medtech) By July 2025: MHRA Publication of Medical Devices Statement of Policy Intent on Early Access and Innovation.",
+          "due_label": "By July 2025",
+          "due_date": "2025-07-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-mhra-will-be-providing-easily-accessible-scientific-advice-and-will-publish-specific-published-performance-metrics-2025-09-30",
+          "title": "MHRA will be providing easily accessible scientific advice and will publish specific, published performance metrics.",
+          "text": "(Pharma and MedTech) By September 2025: MHRA will be providing easily accessible scientific advice and will publish specific, published performance metrics.",
+          "due_label": "By September 2025",
+          "due_date": "2025-09-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-mhra-will-publish-a-new-framework-for-medical-devices-including-ai-2026-08-31",
+          "title": "MHRA will publish a new framework for Medical Devices, including AI.",
+          "text": "(MedTech) By Summer 2026: MHRA will publish a new framework for Medical Devices, including AI.",
+          "due_label": "By Summer 2026",
+          "due_date": "2026-08-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-for-medical-devices-dhsc-will-introduce-a-pre-market-statutory-instrument-including-an-international-reliance-framework-to-parliament-2026-11-30",
+          "title": "For Medical Devices, DHSC will introduce a pre-market statutory instrument, including an International Reliance Framework, to Parliament.",
+          "text": "(MedTech) By Autumn 2026: For Medical Devices, DHSC will introduce a pre-market statutory instrument, including an International Reliance Framework, to Parliament.",
+          "due_label": "By Autumn 2026",
+          "due_date": "2026-11-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Delivery against the MHRA\u2019s statutory performance standards for the licensure of new medicines.",
+        "Completion of the current medical devices regulatory reform programme, including:",
+        "Publication of policy intent for early access and innovation by July 2025.",
+        "Introduction of the pre-market statutory instrument, including International Reliance Framework, to Parliament by Autumn 2026.",
+        "MHRA digital transformation for processing enquiries and applications, using AI where appropriate by 2026."
+      ]
+    },
+    {
+      "id": "26",
+      "display_number": "26",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Ensure NICE processes are timely, agile, and transparent",
+      "action_text": "Streamline market entry and ensure patients receive the most effective care, by ensuring NICE processes are timely, agile and transparent",
+      "territory": "England",
+      "lead_official_role": "CEO",
+      "lead_body": "NICE",
+      "metrics_text": "60% of Technology Appraisals started in 2025/2026 to be published within 240 working days of NICE\u2019s Invitation to Participate.\nEFPIA WAIT statistics on medicines access.",
+      "milestones": [
+        {
+          "id": "roadmap-nice-will-ensure-60-of-technology-appraisals-started-in-2025-2026-are-published-within-240-working-days-of-nice-s-invitation-to-participate-2026-12-31",
+          "title": "NICE will ensure 60% of Technology Appraisals started in 2025/2026 are published within 240 working days of NICE\u2019s Invitation to Participate.",
+          "text": "(Pharma) By end 2026: NICE will ensure 60% of Technology Appraisals started in 2025/2026 are published within 240 working days of NICE\u2019s Invitation to Participate.",
+          "due_label": "By end 2026",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "60% of Technology Appraisals started in 2025/2026 to be published within 240 working days of NICE\u2019s Invitation to Participate.",
+        "EFPIA WAIT statistics on medicines access."
+      ]
+    },
+    {
+      "id": "27",
+      "display_number": "27",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Enhance MHRA and NICE coordination for faster market entry",
+      "action_text": "Streamline market entry, though enhanced coordination between the MHRA and NICE.",
+      "territory": "UK/England",
+      "lead_official_role": "CEO",
+      "lead_body": "MHRA",
+      "metrics_text": "By April 2026, provide easily accessible provision of high-quality integrated scientific advice, with specific, published performance metrics on timelines to respond to requests for scientific advice and timelines to meetings occurring.\nThe Innovative Device Access Pathway (IDAP) to be rolled out as a permanent programme by April 2027, and the refresh of the Innovative Licensing and Access Pathway (ILAP) will continue. Both pathways will have published KPIs on the number of companies and variety of products supported",
+      "milestones": [
+        {
+          "id": "annex-metric-provide-easily-accessible-provision-of-high-quality-integrated-scientific-advice-with-specific-published-performance-metrics-on-timelines-to-respond-to-requests-for-scientific-advice-and-timelines-to-meetings-occurring-2026-04-30",
+          "title": "provide easily accessible provision of high-quality integrated scientific advice, with specific, published performance metrics on timelines to respond to requests for scientific advice and timelines to meetings occurring.",
+          "text": "By April 2026, provide easily accessible provision of high-quality integrated scientific advice, with specific, published performance metrics on timelines to respond to requests for scientific advice and timelines to meetings occurring.",
+          "due_label": "By April 2026,",
+          "due_date": "2026-04-30",
+          "deadline_type": "explicit",
+          "source": "annex_metric"
+        },
+        {
+          "id": "roadmap-the-innovative-device-access-pathway-idap-will-be-rolled-out-as-a-permanent-programme-and-complete-the-refresh-of-the-innovative-licensing-and-access-pathway-ilap-2027-04-30",
+          "title": "The innovative Device Access Pathway (IDAP) will be rolled out as a permanent programme and complete the refresh of the Innovative Licensing and Access Pathway (ILAP).",
+          "text": "(Pharma and MedTech) By April 2027: The innovative Device Access Pathway (IDAP) will be rolled out as a permanent programme and complete the refresh of the Innovative Licensing and Access Pathway (ILAP).",
+          "due_label": "By April 2027",
+          "due_date": "2027-04-30",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "The Innovative Device Access Pathway (IDAP) to be rolled out as a permanent programme by April 2027, and the refresh of the Innovative Licensing and Access Pathway (ILAP) will continue. Both pathways will have published KPIs on the number of companies and variety of products supported"
+      ]
+    },
+    {
+      "id": "28",
+      "display_number": "28",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Reduce friction so effective medicines reach patients faster",
+      "action_text": "Reduce friction in the system to optimise access and uptake of new medicines so the most clinically and cost-effective can reach patients faster.",
+      "territory": "England",
+      "lead_official_role": "Director, Medicines Value and Access",
+      "lead_body": "NHS England",
+      "metrics_text": "Medicines uptake reported within the Life Sciences Competitiveness Indicators and Innovation Scorecard.\nIQVIA reporting on biosimilars uptake.",
+      "milestones": [],
+      "undated_metrics": [
+        "Medicines uptake reported within the Life Sciences Competitiveness Indicators and Innovation Scorecard.",
+        "IQVIA reporting on biosimilars uptake."
+      ]
+    },
+    {
+      "id": "29",
+      "display_number": "29",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Create low-friction procurement and contracting for MedTech",
+      "action_text": "Streamline access and adoption of MedTech by reducing duplication and introducing low- friction procurement and contracting mechanisms.",
+      "territory": "England",
+      "lead_official_role": "Director, Medical Technologies",
+      "lead_body": "Department of Health and Social Care",
+      "metrics_text": "The number of MedTech HTAs.\nThe number of products receiving reimbursement through the RBP and Value Based Procurement mechanisms, and their consequent level of uptake.",
+      "milestones": [
+        {
+          "id": "roadmap-value-based-procurement-pilot-launch-2025-12-31",
+          "title": "Value Based Procurement Pilot Launch.",
+          "text": "(Medtech) By end 2025: Value Based\nProcurement Pilot Launch.",
+          "due_label": "By end 2025",
+          "due_date": "2025-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-rbp-will-be-launched-including-referrals-to-the-nice-technology-appraisal-process-2026-04-01",
+          "title": "RBP will be launched, including referrals to the NICE Technology Appraisal process.",
+          "text": "(MedTech) From April 2026: RBP will be launched, including referrals to the NICE Technology Appraisal process.",
+          "due_label": "From April 2026",
+          "due_date": "2026-04-01",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        },
+        {
+          "id": "roadmap-the-nhs-will-introduce-an-innovator-passport-2026-12-31",
+          "title": "The NHS will introduce an Innovator Passport.",
+          "text": "(MedTech) By end 2026: The NHS will introduce an Innovator Passport.",
+          "due_label": "By end 2026",
+          "due_date": "2026-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "The number of MedTech HTAs.",
+        "The number of products receiving reimbursement through the RBP and Value Based Procurement mechanisms, and their consequent level of uptake."
+      ]
+    },
+    {
+      "id": "30",
+      "display_number": "30",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Place a growth mandate on NHS commercial activity",
+      "action_text": "The government will place a Growth Mandate on NHS commercial activity including NHS Supply Chain and within the Medicines Procurement and Supply Chain Frameworks.",
+      "territory": "England",
+      "lead_official_role": "Chief Commercial Officer",
+      "lead_body": "NHS England",
+      "metrics_text": "The proportion of procurements completed using the Value Based Procurement methodology, and their consequent level of uptake, measured across companies of all sizes to enable comparison between large organisations and SMEs.,br> - The proportion of tenders using the Value Based Procurement methodology, and their consequent level of uptake, measured across companies.",
+      "milestones": [],
+      "undated_metrics": [
+        "The proportion of procurements completed using the Value Based Procurement methodology, and their consequent level of uptake, measured across companies of all sizes to enable comparison between large organisations and SMEs.,br> - The proportion of tenders using the Value Based Procurement methodology, and their consequent level of uptake, measured across companies."
+      ]
+    },
+    {
+      "id": "31",
+      "display_number": "31",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Update and expand the Innovation Scorecard",
+      "action_text": "Strengthen innovation metrics for medicines and MedTech through an updated and expanded Innovation Scorecard.",
+      "territory": "England",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "Number of products/groupings for which an estimate of expected uptake is published in the Innovation Scorecard.\nNumber of MedTech products with published uptake data.",
+      "milestones": [],
+      "undated_metrics": [
+        "Number of products/groupings for which an estimate of expected uptake is published in the Innovation Scorecard.",
+        "Number of MedTech products with published uptake data."
+      ]
+    },
+    {
+      "id": "32",
+      "display_number": "32",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Deliver the Healthcare Goals programme",
+      "action_text": "Deliver the ambitions of the government\u2019s Healthcare Goals programme, across Addiction, Cancer, Dementia, Mental Health, and Obesity, with continued significant government funding.",
+      "territory": "UK",
+      "lead_official_role": "Director",
+      "lead_body": "Office for Life Sciences",
+      "metrics_text": "Each Goals programme is focused on the delivery of quantifiable and timebound KPIs. These will be published on the Healthcare Goals webpage following the outcome of Phase 2 of the Spending Review 2025.",
+      "milestones": [
+        {
+          "id": "roadmap-realised-the-ambitions-of-the-healthcare-goals-by-meeting-the-programme-s-key-performance-indicators-2030-12-31",
+          "title": "Realised the ambitions of the Healthcare Goals by meeting the programme\u2019s Key Performance Indicators.",
+          "text": "(Pharma and MedTech) By the end of 2030: Realised the ambitions of the Healthcare Goals by meeting the programme\u2019s Key Performance Indicators.",
+          "due_label": "By the end of 2030",
+          "due_date": "2030-12-31",
+          "deadline_type": "explicit",
+          "source": "roadmap"
+        }
+      ],
+      "undated_metrics": [
+        "Each Goals programme is focused on the delivery of quantifiable and timebound KPIs. These will be published on the Healthcare Goals webpage following the outcome of Phase 2 of the Spending Review 2025."
+      ]
+    },
+    {
+      "id": "33",
+      "display_number": "33",
+      "pillar_id": "nhs",
+      "pillar_title": "Driving health innovation and NHS reform",
+      "title": "Establish Regional Health Innovation Zones",
+      "action_text": "Establish Regional Health Innovation Zones for large scale development and implementation of innovation, for scale-up across the health and care system.",
+      "territory": "England",
+      "lead_official_role": "National Director of Transformation",
+      "lead_body": "NHS England",
+      "metrics_text": "Number of alternative delivery pathways trialled and ready to be scaled nationally.\nNumber of patients benefitting from new care delivery pathways\nInvestment leveraged through industry co-partnership.",
+      "milestones": [],
+      "undated_metrics": [
+        "Number of alternative delivery pathways trialled and ready to be scaled nationally.",
+        "Number of patients benefitting from new care delivery pathways",
+        "Investment leveraged through industry co-partnership."
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "roadmap-mhra-publication-of-medical-devices-statement-of-policy-intent-on-early-access-and-innovation-2025-07-31",
+      "action_id": "25",
+      "year_label": "2025",
+      "title": "MHRA Publication of Medical Devices Statement of Policy Intent on Early Access and Innovation.",
+      "text": "(Medtech) By July 2025: MHRA Publication of Medical Devices Statement of Policy Intent on Early Access and Innovation.",
+      "due_label": "By July 2025",
+      "due_date": "2025-07-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-mhra-will-be-providing-easily-accessible-scientific-advice-and-will-publish-specific-published-performance-metrics-2025-09-30",
+      "action_id": "25",
+      "year_label": "2025",
+      "title": "MHRA will be providing easily accessible scientific advice and will publish specific, published performance metrics.",
+      "text": "(Pharma and MedTech) By September 2025: MHRA will be providing easily accessible scientific advice and will publish specific, published performance metrics.",
+      "due_label": "By September 2025",
+      "due_date": "2025-09-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-global-talent-taskforce-will-be-established-which-will-help-attract-talent-from-the-is-8-including-life-sciences-2025-08-31",
+      "action_id": "18",
+      "year_label": "2025",
+      "title": "The Global Talent Taskforce will be established, which will help attract talent from the IS-8, including Life Sciences.",
+      "text": "(Pharma and MedTech) Summer 2025: The Global Talent Taskforce will be established, which will help attract talent from the IS-8, including Life Sciences.",
+      "due_label": "Summer 2025",
+      "due_date": "2025-08-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-turing-ai-pioneer-fellowship-applications-open-which-life-sciences-talent-can-apply-to-2025-11-30",
+      "action_id": "17",
+      "year_label": "2025",
+      "title": "Turing AI Pioneer Fellowship applications open which Life Sciences Talent can apply to.",
+      "text": "(Pharma and MedTech) Autumn 2025: Turing AI Pioneer Fellowship applications open which Life Sciences Talent can apply to.",
+      "due_label": "Autumn 2025",
+      "due_date": "2025-11-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-government-will-publish-a-10-year-uk-research-workforce-strategy-and-a-3-year-implementation-plan-for-england-2025-11-30",
+      "action_id": "16",
+      "year_label": "2025",
+      "title": "government will publish a 10 Year UK Research Workforce Strategy and a 3 year implementation plan for England.",
+      "text": "(Pharma and MedTech) By Autumn 2025: government will publish a 10 Year UK Research\nWorkforce Strategy and a 3 year implementation plan for England.",
+      "due_label": "By Autumn 2025",
+      "due_date": "2025-11-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-publication-of-nihr-s-improving-health-and-economic-growth-delivery-plan-2025-10-31",
+      "action_id": "12",
+      "year_label": "2025",
+      "title": "Publication of NIHR\u2019s improving health and economic growth delivery plan.",
+      "text": "(Pharma and MedTech) By October 2025: Publication of NIHR\u2019s improving health and economic growth delivery plan.",
+      "due_label": "By October 2025",
+      "due_date": "2025-10-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-value-based-procurement-pilot-launch-2025-12-31",
+      "action_id": "29",
+      "year_label": "2025",
+      "title": "Value Based Procurement Pilot Launch.",
+      "text": "(Medtech) By end 2025: Value Based\nProcurement Pilot Launch.",
+      "due_label": "By end 2025",
+      "due_date": "2025-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-ols-will-work-with-the-futures-group-on-a-series-of-skills-focused-industry-workshops-2025-12-31",
+      "action_id": "17",
+      "year_label": "2025",
+      "title": "The OLS will work with the Futures Group on a series of skills-focused industry workshops.",
+      "text": "(Pharma and MedTech) By end 2025: The OLS will work with the Futures Group on a series of skills-focused industry workshops.",
+      "due_label": "By end 2025",
+      "due_date": "2025-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-department-for-education-will-develop-a-new-post-16-education-and-skills-strategy-fulfilling-a-key-government-manifesto-commitment-2025-12-31",
+      "action_id": "16",
+      "year_label": "2025",
+      "title": "The Department for Education will develop a new Post-16 Education and Skills Strategy, fulfilling a key government manifesto commitment.",
+      "text": "(Pharma and MedTech) By the end of 2025: The Department for Education will develop a new Post-16 Education and Skills Strategy, fulfilling a key government manifesto commitment.",
+      "due_label": "By the end of 2025",
+      "due_date": "2025-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-commercial-clinical-trial-approval-and-set-up-time-will-be-150-days-or-less-2026-03-31",
+      "action_id": "3",
+      "year_label": "2026",
+      "title": "Commercial Clinical Trial approval and set up time will be 150 days or less.",
+      "text": "(Pharma and MedTech) By March 2026: Commercial Clinical Trial approval and set up time will be 150 days or less.",
+      "due_label": "By March 2026",
+      "due_date": "2026-03-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-ukri-will-have-delivered-improved-coordination-with-nihr-activity-and-be-working-to-support-smes-2026-03-31",
+      "action_id": "5",
+      "year_label": "2026",
+      "title": "UKRI will have delivered improved coordination with NIHR activity and be working to support SMEs.",
+      "text": "(Pharma and MedTech) By March 2026: UKRI will have delivered improved coordination with NIHR activity and be working to support SMEs.",
+      "due_label": "By March 2026",
+      "due_date": "2026-03-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-ukri-will-have-identified-game-changing-technologies-for-iuk-biomedical-catalyst-support-2026-03-31",
+      "action_id": "5",
+      "year_label": "2026",
+      "title": "UKRI will have identified game-changing technologies for IUK Biomedical Catalyst support.",
+      "text": "(Pharma and MedTech) By March 2026: UKRI will have identified game-changing technologies for IUK Biomedical Catalyst support.",
+      "due_label": "By March 2026",
+      "due_date": "2026-03-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-rbp-will-be-launched-including-referrals-to-the-nice-technology-appraisal-process-2026-04-01",
+      "action_id": "29",
+      "year_label": "2026",
+      "title": "RBP will be launched, including referrals to the NICE Technology Appraisal process.",
+      "text": "(MedTech) From April 2026: RBP will be launched, including referrals to the NICE Technology Appraisal process.",
+      "due_label": "From April 2026",
+      "due_date": "2026-04-01",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-bbb-will-begin-deploying-new-industrial-strategy-capital-2026-03-31",
+      "action_id": "13",
+      "year_label": "2026",
+      "title": "The BBB will begin deploying new Industrial Strategy capital.",
+      "text": "(Pharma and MedTech) By end Q1 2026/2027: The BBB will begin deploying new Industrial Strategy capital.",
+      "due_label": "By end Q1 2026/2027",
+      "due_date": "2026-03-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-bbb-will-enhance-monitoring-and-reporting-functions-to-track-investments-into-is-sectors-2026-03-31",
+      "action_id": "13",
+      "year_label": "2026",
+      "title": "The BBB will enhance monitoring and reporting functions to track investments into IS sectors.",
+      "text": "(Pharma and MedTech) By end Q1 2026/2027: The BBB will enhance monitoring and reporting functions to track investments into IS sectors.",
+      "due_label": "By end Q1 2026/2027",
+      "due_date": "2026-03-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-dhsc-will-have-created-a-single-searchable-database-of-clinical-trial-activity-2026-06-30",
+      "action_id": "11ii",
+      "year_label": "2026",
+      "title": "DHSC will have created a single searchable database of clinical trial activity.",
+      "text": "(Pharma and MedTech) By June 2026: DHSC will have created a single searchable database of clinical trial activity.",
+      "due_label": "By June 2026",
+      "due_date": "2026-06-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-complete-implementation-of-7-healthcare-centres-of-excellence-in-regulatory-science-and-innovation-2026-05-31",
+      "action_id": "17",
+      "year_label": "2026",
+      "title": "Complete implementation of 7 healthcare Centres of Excellence in Regulatory Science and Innovation.",
+      "text": "(Pharma and MedTech) Spring 2026: Complete implementation of 7 healthcare Centres of Excellence in Regulatory Science and Innovation.",
+      "due_label": "Spring 2026",
+      "due_date": "2026-05-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-launch-of-the-minimum-viable-product-for-the-hdrs-2026-09-30",
+      "action_id": "7",
+      "year_label": "2026",
+      "title": "Launch of the minimum viable product for the HDRS.",
+      "text": "(Pharma and MedTech) By September 2026: Launch of the minimum viable product for the HDRS.",
+      "due_label": "By September 2026",
+      "due_date": "2026-09-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-mhra-will-publish-a-new-framework-for-medical-devices-including-ai-2026-08-31",
+      "action_id": "25",
+      "year_label": "2026",
+      "title": "MHRA will publish a new framework for Medical Devices, including AI.",
+      "text": "(MedTech) By Summer 2026: MHRA will publish a new framework for Medical Devices, including AI.",
+      "due_label": "By Summer 2026",
+      "due_date": "2026-08-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-for-medical-devices-dhsc-will-introduce-a-pre-market-statutory-instrument-including-an-international-reliance-framework-to-parliament-2026-11-30",
+      "action_id": "25",
+      "year_label": "2026",
+      "title": "For Medical Devices, DHSC will introduce a pre-market statutory instrument, including an International Reliance Framework, to Parliament.",
+      "text": "(MedTech) By Autumn 2026: For Medical Devices, DHSC will introduce a pre-market statutory instrument, including an International Reliance Framework, to Parliament.",
+      "due_label": "By Autumn 2026",
+      "due_date": "2026-11-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-new-data-assets-will-be-brought-into-scope-for-the-hdrs-on-a-prioritised-basis-2026-12-01",
+      "action_id": "7",
+      "year_label": "2026",
+      "title": "New data assets will be brought into scope for the HDRS on a prioritised basis.",
+      "text": "(Pharma and MedTech) From December 2026: New data assets will be brought into scope for the HDRS on a prioritised basis.",
+      "due_label": "From December 2026",
+      "due_date": "2026-12-01",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-nihr-will-launch-an-ai-research-screening-platform-2026-12-31",
+      "action_id": "6",
+      "year_label": "2026",
+      "title": "NIHR will launch an AI Research Screening Platform.",
+      "text": "(Pharma and MedTech) By end 2026: NIHR will launch an AI Research Screening Platform.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-in-relation-to-data-access-use-and-sharing-and-parliament-permitting-the-government-will-pass-regulations-reforming-the-current-health-service-control-of-patient-information-copi-regulations-of-2002-2026-12-31",
+      "action_id": "8",
+      "year_label": "2026",
+      "title": "In relation to data access, use and sharing, and Parliament permitting, the government will pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002.",
+      "text": "(Pharma and MedTech) By end 2026: In relation to data access, use and sharing, and Parliament permitting, the government will pass regulations reforming the current Health Service (Control of Patient Information, COPI) Regulations of 2002.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-as-part-of-our-pre-clinical-translational-infrastructure-mrc-will-establish-a-pre-clinical-translational-hub-2026-12-31",
+      "action_id": "2a",
+      "year_label": "2026",
+      "title": "As part of our pre-clinical translational infrastructure, MRC will Establish a Pre-Clinical Translational Hub.",
+      "text": "(- Pharma and MedTech) By end 2026: As part of our pre-clinical translational infrastructure, MRC will\nEstablish a Pre-Clinical Translational Hub.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-implementation-of-reform-to-the-wider-nhs-research-data-access-approvals-and-governance-system-in-relation-to-data-access-use-and-sharing-and-subject-to-legislative-progress-2026-12-31",
+      "action_id": "8",
+      "year_label": "2026",
+      "title": "Implementation of reform to the wider NHS research data access approvals and governance system in relation to data access, use and sharing, and, subject to legislative progress.",
+      "text": "(Pharma and MedTech) By end 2026: Implementation of reform to the wider NHS research data access approvals and governance system in relation to data access, use and sharing, and, subject to legislative progress.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-launch-the-nihr-innovation-catalyst-2026-12-31",
+      "action_id": "6",
+      "year_label": "2026",
+      "title": "Launch the NIHR Innovation Catalyst.",
+      "text": "(Pharma and MedTech) By end 2026: Launch the NIHR Innovation Catalyst.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-nice-will-ensure-60-of-technology-appraisals-started-in-2025-2026-are-published-within-240-working-days-of-nice-s-invitation-to-participate-2026-12-31",
+      "action_id": "26",
+      "year_label": "2026",
+      "title": "NICE will ensure 60% of Technology Appraisals started in 2025/2026 are published within 240 working days of NICE\u2019s Invitation to Participate.",
+      "text": "(Pharma) By end 2026: NICE will ensure 60% of Technology Appraisals started in 2025/2026 are published within 240 working days of NICE\u2019s Invitation to Participate.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-nhs-will-introduce-an-innovator-passport-2026-12-31",
+      "action_id": "29",
+      "year_label": "2026",
+      "title": "The NHS will introduce an Innovator Passport.",
+      "text": "(MedTech) By end 2026: The NHS will introduce an Innovator Passport.",
+      "due_label": "By end 2026",
+      "due_date": "2026-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-innovative-device-access-pathway-idap-will-be-rolled-out-as-a-permanent-programme-and-complete-the-refresh-of-the-innovative-licensing-and-access-pathway-ilap-2027-04-30",
+      "action_id": "27",
+      "year_label": "2027",
+      "title": "The innovative Device Access Pathway (IDAP) will be rolled out as a permanent programme and complete the refresh of the Innovative Licensing and Access Pathway (ILAP).",
+      "text": "(Pharma and MedTech) By April 2027: The innovative Device Access Pathway (IDAP) will be rolled out as a permanent programme and complete the refresh of the Innovative Licensing and Access Pathway (ILAP).",
+      "due_label": "By April 2027",
+      "due_date": "2027-04-30",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-hdrs-will-begin-creating-uk-wide-service-2027-04-01",
+      "action_id": "7",
+      "year_label": "2027",
+      "title": "HDRS will begin creating UK-wide service.",
+      "text": "(Pharma and MedTech) From April 2027:\nHDRS will begin creating UK-wide service.",
+      "due_label": "From April 2027",
+      "due_date": "2027-04-01",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-industry-engagement-will-launchas-part-of-a-review-of-priority-skills-needs-of-the-life-sciences-sector-2027-12-31",
+      "action_id": "16",
+      "year_label": "2027",
+      "title": "Industry engagement will launchas part of a review of priority skills needs of the Life Sciences sector.",
+      "text": "(Pharma and MedTech) By the end of 2027: Industry engagement will launchas part of a review of priority skills needs of the Life Sciences sector.",
+      "due_label": "By the end of 2027",
+      "due_date": "2027-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-mrc-will-establish-a-further-2-translational-research-networks-2028-12-31",
+      "action_id": "2a",
+      "year_label": "2028",
+      "title": "MRC will establish a further 2 translational research networks.",
+      "text": "(Pharma and MedTech) By 2028: MRC will establish a further 2 translational research networks.",
+      "due_label": "By 2028",
+      "due_date": "2028-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-uk-biobank-will-expand-its-biomedical-research-resource-with-enhanced-participant-characterisation-2030-12-31",
+      "action_id": "9i",
+      "year_label": "2030",
+      "title": "UK Biobank will expand its biomedical research resource with enhanced participant characterisation.",
+      "text": "(Pharma and MedTech) By 2030: UK Biobank will expand its biomedical research resource with enhanced participant characterisation.",
+      "due_label": "By 2030",
+      "due_date": "2030-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-genomics-england-will-host-one-of-the-largest-genomic-research-databases-globally-with-over-500-000-genomes-2030-12-31",
+      "action_id": "9iii",
+      "year_label": "2030",
+      "title": "Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes.",
+      "text": "(Pharma and MedTech) By 2030: Genomics England will host one of the largest genomic research databases globally, with over 500,000 genomes.",
+      "due_label": "By 2030",
+      "due_date": "2030-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-realised-the-ambitions-of-the-healthcare-goals-by-meeting-the-programme-s-key-performance-indicators-2030-12-31",
+      "action_id": "32",
+      "year_label": "2030",
+      "title": "Realised the ambitions of the Healthcare Goals by meeting the programme\u2019s Key Performance Indicators.",
+      "text": "(Pharma and MedTech) By the end of 2030: Realised the ambitions of the Healthcare Goals by meeting the programme\u2019s Key Performance Indicators.",
+      "due_label": "By the end of 2030",
+      "due_date": "2030-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-there-will-have-been-a-sustained-increase-in-r-d-funding-towards-prevention-and-multiple-long-term-conditions-tracked-via-uk-health-research-analysis-data-2030-12-31",
+      "action_id": "10",
+      "year_label": "2030",
+      "title": "There will have been a sustained increase in R&D funding towards prevention and Multiple Long-Term Conditions \u2013 tracked via \u2018UK Health Research Analysis\u2019 data.",
+      "text": "(Pharma and MedTech) By the end of 2030: There will have been a sustained increase in R&D funding towards prevention and Multiple Long-Term Conditions \u2013 tracked via \u2018UK Health Research Analysis\u2019 data.",
+      "due_label": "By the end of 2030",
+      "due_date": "2030-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    },
+    {
+      "id": "roadmap-the-ols-department-of-education-and-department-for-business-and-trade-to-review-activity-across-all-skills-actions-and-set-priorities-2030-12-31",
+      "action_id": "16",
+      "year_label": "2030",
+      "title": "The OLS, Department of Education and Department for Business and Trade to review activity across all skills actions and set priorities.",
+      "text": "(Pharma and MedTech) By the end of 2030: The OLS, Department of Education and Department for Business and Trade to review activity across all skills actions and set priorities.",
+      "due_label": "By the end of 2030",
+      "due_date": "2030-12-31",
+      "deadline_type": "explicit",
+      "source": "roadmap"
+    }
+  ]
+}
