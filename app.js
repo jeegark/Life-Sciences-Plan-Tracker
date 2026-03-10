@@ -321,13 +321,48 @@ function getSelectedAction(selectValue) {
   return getActionById(selectValue);
 }
 
-function actionCardMarkup(action, options = {}) {
-  const milestone = getRepresentativeMilestone(action);
-  const dueLabel = milestone ? `Due ${formatDate.format(new Date(milestone.due_date))}` : "No dated milestone";
-  const deadlineHint = milestone?.days_late ? `${milestone.days_late} days late` : milestone?.status === "At risk" ? "Within 60 days" : "Monitoring";
-  const openLabel = options.openLabel ?? "Open action";
+function getEvidenceSummary(action) {
   const evidenceCount = action.evidence?.length ?? 0;
-  const evidenceLabel = evidenceCount ? `${evidenceCount} official source${evidenceCount === 1 ? "" : "s"}` : "No linked public evidence";
+  const latestDatedEvidence = (action.evidence || [])
+    .filter((item) => item.published_at)
+    .sort((left, right) => right.published_at.localeCompare(left.published_at))[0] ?? null;
+
+  return {
+    count: evidenceCount,
+    label: evidenceCount ? `${evidenceCount} official source${evidenceCount === 1 ? "" : "s"}` : "No linked public evidence",
+    note: action.claim_without_evidence
+      ? "Government progress claim recorded."
+      : latestDatedEvidence
+        ? `Latest ${formatMaybeDate(latestDatedEvidence.published_at)}`
+        : evidenceCount
+          ? "Date not extracted"
+          : "No source linked yet",
+  };
+}
+
+function getDeadlineSummary(action) {
+  const milestone = getRepresentativeMilestone(action);
+  if (!milestone) {
+    return {
+      label: "No dated milestone",
+      note: "Monitoring",
+    };
+  }
+
+  return {
+    label: `Due ${formatDate.format(new Date(milestone.due_date))}`,
+    note: milestone.days_late
+      ? `${milestone.days_late} days late`
+      : milestone.status === "At risk"
+        ? "Within 60 days"
+        : milestone.status,
+  };
+}
+
+function actionCardMarkup(action, options = {}) {
+  const deadline = getDeadlineSummary(action);
+  const evidence = getEvidenceSummary(action);
+  const openLabel = options.openLabel ?? "Open action";
 
   return `
     <article class="action-card">
@@ -335,7 +370,7 @@ function actionCardMarkup(action, options = {}) {
         <span class="pill ${getStatusClass(action.status)}">${escapeHtml(action.status)}</span>
         <span class="pill pill--risk">Score ${escapeHtml(action.score)}</span>
         <span class="pill pill--progress">Action ${escapeHtml(action.display_number)}</span>
-        <span class="pill ${evidenceCount ? "pill--neutral" : "pill--delayed"}">${escapeHtml(evidenceLabel)}</span>
+        <span class="pill ${evidence.count ? "pill--neutral" : "pill--delayed"}">${escapeHtml(evidence.label)}</span>
         ${action.claim_without_evidence ? '<span class="pill pill--claim">Claim without deliverable</span>' : ""}
       </div>
       <h3 class="action-card__title">${escapeHtml(action.title)}</h3>
@@ -346,14 +381,88 @@ function actionCardMarkup(action, options = {}) {
         <span>${escapeHtml(action.current_minister)}</span>
       </div>
       <div class="action-card__meta">
-        <span>${escapeHtml(dueLabel)}</span>
-        <span>${escapeHtml(deadlineHint)}</span>
+        <span>${escapeHtml(deadline.label)}</span>
+        <span>${escapeHtml(deadline.note)}</span>
         <span>${escapeHtml(action.territory || "Territory not specified")}</span>
       </div>
       <div class="action-card__footer">
         <button class="secondary-button" type="button" data-open-action="${escapeHtml(action.id)}">${escapeHtml(openLabel)}</button>
       </div>
     </article>
+  `;
+}
+
+function actionTableMarkup(actions, emptyMessage) {
+  if (!actions.length) {
+    return `<div class="empty-state">${escapeHtml(emptyMessage)}</div>`;
+  }
+
+  return `
+    <div class="table-wrap table-wrap--actions">
+      <table class="score-table action-table">
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Pillar</th>
+            <th>Status</th>
+            <th>Lead body</th>
+            <th>Minister</th>
+            <th>Deadline</th>
+            <th>Evidence</th>
+            <th>Score</th>
+            <th>Open</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${actions.map((action) => actionTableRowMarkup(action)).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function actionTableRowMarkup(action) {
+  const deadline = getDeadlineSummary(action);
+  const evidence = getEvidenceSummary(action);
+
+  return `
+    <tr>
+      <td class="action-table__action">
+        <div class="action-table__number">Action ${escapeHtml(action.display_number)}</div>
+        <button class="action-table__link" type="button" data-open-action="${escapeHtml(action.id)}">${escapeHtml(action.title)}</button>
+        <div class="action-table__summary">${escapeHtml(action.summary)}</div>
+      </td>
+      <td>
+        <div class="table-stack">
+          <span>${escapeHtml(action.pillar_title)}</span>
+          <span class="table-note">${escapeHtml(action.territory || "UK")}</span>
+        </div>
+      </td>
+      <td>
+        <div class="pill-row">
+          <span class="pill ${getStatusClass(action.status)}">${escapeHtml(action.status)}</span>
+          ${action.claim_without_evidence ? '<span class="pill pill--claim">Claim only</span>' : ""}
+        </div>
+      </td>
+      <td>${escapeHtml(action.lead_body)}</td>
+      <td>${escapeHtml(action.current_minister)}</td>
+      <td>
+        <div class="table-stack">
+          <span>${escapeHtml(deadline.label)}</span>
+          <span class="table-note">${escapeHtml(deadline.note)}</span>
+        </div>
+      </td>
+      <td>
+        <div class="table-stack">
+          <span class="${evidence.count ? "table-good" : "table-bad"}">${escapeHtml(evidence.label)}</span>
+          <span class="table-note">${escapeHtml(evidence.note)}</span>
+        </div>
+      </td>
+      <td><span class="score-badge">${escapeHtml(action.score)}</span></td>
+      <td>
+        <button class="secondary-button secondary-button--compact" type="button" data-open-action="${escapeHtml(action.id)}">Open</button>
+      </td>
+    </tr>
   `;
 }
 
@@ -501,10 +610,8 @@ function renderActionFilters() {
 function renderActionRegister() {
   const actions = getFilteredActions();
   const linked = actions.filter((action) => (action.evidence || []).length > 0).length;
-  elements.actionRegisterCount.textContent = `${formatInteger.format(actions.length)} items | ${formatInteger.format(linked)} with evidence`;
-  elements.actionGrid.innerHTML = actions.length
-    ? actions.map((action) => actionCardMarkup(action)).join("")
-    : '<div class="empty-state">No actions match the current filters.</div>';
+  elements.actionRegisterCount.textContent = `${formatInteger.format(actions.length)} rows | ${formatInteger.format(linked)} with evidence`;
+  elements.actionGrid.innerHTML = actionTableMarkup(actions, "No actions match the current filters.");
 }
 
 function renderPillarDetail() {
@@ -549,7 +656,7 @@ function renderPillarDetail() {
       <strong class="stat-card__value stat-card__value--small">${escapeHtml(topAction.title)}</strong>
     </article>
   `;
-  elements.pillarActionGrid.innerHTML = pillarActions.map((action) => actionCardMarkup(action, { openLabel: "Open action" })).join("");
+  elements.pillarActionGrid.innerHTML = actionTableMarkup(pillarActions, "No actions are currently available in this pillar.");
 }
 
 function renderDetailTabs() {
